@@ -1,18 +1,53 @@
-
 services:
-  qf:
-    image: generateur-flash
+  # Backend API
+  backend:
     build:
       context: .
-      dockerfile: Dockerfile
-    container_name: generateur-flash
+      dockerfile: api/Dockerfile
+    container_name: qcm-backend
+    ports:
+      - "8000:8000"
     volumes:
-      - .:/app
-    command: ["--level", "3e", "--topic", "trigonometrie", "thales", "--n", "5", "--compile"]
+      - ./data:/app/data
+      - ./exports:/app/exports
+      - ./config:/app/config
+    environment:
+      - PYTHONUNBUFFERED=1
+      - API_ENV=production
+    networks:
+      - qcm-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
-  qf-dev:
-    build: .
-    volumes:
-      - .:/app
-    command: ["--level", "3e", "--topic", "trigonometrie", "thales", "--n", "5", "--compile"]
-    entrypoint: ["python", "-u", "generate_flash.py"]
+  # Frontend React
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: qcm-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - qcm-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+
+networks:
+  qcm-network:
+    driver: bridge
+
+volumes:
+  data:
+  exports:
+

@@ -64,6 +64,16 @@ async def root():
     }
 
 
+@app.get("/health")
+async def health_check():
+    """Endpoint de santé pour Docker healthcheck"""
+    return {
+        "status": "healthy",
+        "version": "1.0.0",
+        "timestamp": datetime.now().isoformat()
+    }
+
+
 @app.get("/api/questions", response_model=List[Question])
 async def get_questions(
     level: Optional[List[str]] = Query(None, description="Niveaux (ex: 3e, 4e, 5e)"),

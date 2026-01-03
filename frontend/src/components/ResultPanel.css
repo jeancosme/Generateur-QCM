@@ -1,0 +1,143 @@
+.result-panel {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid #4caf50;
+}
+
+.result-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.result-header h2 {
+  margin: 0;
+  color: #4caf50;
+  font-size: 2rem;
+}
+
+.result-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.result-info,
+.result-questions {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.result-info h3,
+.result-questions h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.result-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result-info li {
+  margin: 0.75rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.result-info strong {
+  color: #333;
+}
+
+.questions-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+
+.question-summary-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.q-number {
+  font-weight: 700;
+  color: #667eea;
+}
+
+.q-theme {
+  color: #555;
+}
+
+.result-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.download-btn,
+.reset-btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.download-btn {
+  background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+  color: white;
+  flex: 1;
+  max-width: 300px;
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+}
+
+.reset-btn {
+  background: white;
+  color: #667eea;
+  border: 2px solid #667eea;
+  flex: 1;
+  max-width: 300px;
+}
+
+.reset-btn:hover {
+  background: #f0f4ff;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .result-panel {
+    padding: 1.5rem;
+  }
+  
+  .result-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .result-actions {
+    flex-direction: column;
+  }
+  
+  .download-btn,
+  .reset-btn {
+    max-width: 100%;
+  }
+}
