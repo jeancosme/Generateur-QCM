@@ -1,0 +1,16 @@
+uid,level,topic,subtopic,skill,format,difficulty,time_s,stem_tex,answer_tex,distractors_tex,figure_url,tags,status,language
+FR5EMU001,5e,fractions,multiplication,produit_simple,QCM,1,40,Calculer : \frac{2}{3} × \frac{3}{4},\frac{1}{2},\frac{5}{7}|\frac{6}{12}|\frac{2}{7},,flash;fractions;mult_simple,validé,fr
+FR5EMU002,5e,fractions,multiplication,produit_simple,QCM,1,40,Calculer : \frac{1}{5} × \frac{3}{5},\frac{3}{25},\frac{4}{25}|\frac{3}{10}|\frac{1}{15},,flash;fractions;mult_simple,validé,fr
+FR5EMU003,5e,fractions,multiplication,produit_simple,QCM,1,40,Calculer : \frac{4}{7} × \frac{2}{7},\frac{8}{49},\frac{6}{49}|\frac{4}{14}|\frac{8}{14},,flash;fractions;mult_simple,validé,fr
+FR5EMU004,5e,fractions,multiplication,entier,QCM,1,40,Calculer : 5 × \frac{3}{8},\frac{15}{8},\frac{5}{8}|\frac{3}{40}|\frac{15}{24},,flash;fractions;mult_entier,validé,fr
+FR5EMU005,5e,fractions,multiplication,entier,QCM,1,40,Calculer : \frac{7}{9} × 6,\frac{42}{9},\frac{13}{9}|\frac{42}{15}|\frac{7}{54},,flash;fractions;mult_entier,validé,fr
+FR5EMU006,5e,fractions,multiplication,simplification_croisee,QCM,2,60,Calculer : \frac{6}{10} × \frac{5}{9} (simplifier le résultat),\frac{1}{3},\frac{11}{30}|\frac{30}{54}|\frac{5}{15},,flash;fractions;mult_simplify,validé,fr
+FR5EMU007,5e,fractions,multiplication,simplification_croisee,QCM,2,60,Calculer : \frac{8}{12} × \frac{3}{4} (simplifier),\frac{1}{2},\frac{24}{48}|\frac{2}{3}|\frac{3}{8},,flash;fractions;mult_simplify,validé,fr
+FR5EMU008,5e,fractions,multiplication,simplification_croisee,QCM,2,60,Calculer : \frac{9}{15} × \frac{10}{18} (simplifier),\frac{1}{3},\frac{19}{45}|\frac{3}{5}|\frac{5}{9},,flash;fractions;mult_simplify,validé,fr
+FR5EMU009,5e,fractions,multiplication,produit_impropre,QCM,2,70,Calculer : \frac{5}{4} × \frac{3}{2},\frac{15}{8},\frac{8}{15}|\frac{5}{8}|\frac{3}{4},,flash;fractions;mult_improper,validé,fr
+FR5EMU010,5e,fractions,multiplication,produit_impropre,QCM,2,70,Calculer : \frac{7}{6} × \frac{9}{7},\frac{3}{2},\frac{7}{54}|\frac{9}{13}|\frac{16}{7},,flash;fractions;mult_improper,validé,fr
+FR5EMU011,5e,fractions,multiplication,expression,QCM,3,80,Calculer : \frac{2}{3} × \frac{3}{5} × \frac{5}{6},\frac{1}{9},\frac{2}{9}|\frac{1}{6}|\frac{5}{18},,flash;fractions;mult_trois,validé,fr
+FR5EMU012,5e,fractions,multiplication,expression,QCM,3,80,Calculer : \frac{4}{5} × \frac{10}{16},\frac{1}{2},\frac{2}{5}|\frac{14}{80}|\frac{5}{8},,flash;fractions;mult_simplify,validé,fr
+FR5EMU013,5e,fractions,multiplication,piege_zero,QCM,3,60,Calculer : 0 × \frac{7}{13},0,\frac{7}{13}|\frac{7}{0}|\frac{13}{7},,flash;fractions;mult_zero,validé,fr
+FR5EMU014,5e,fractions,multiplication,piege_un,QCM,3,60,Calculer : 1 × \frac{11}{12},\frac{11}{12},\frac{1}{11}|\frac{12}{11}|\frac{11}{24},,flash;fractions;mult_un,validé,fr
+FR5EMU015,5e,fractions,multiplication,piege_equivalent,QCM,3,70,Calculer : \frac{2}{4} × \frac{4}{6} (simplifier),\frac{1}{3},\frac{2}{6}|\frac{8}{24}|\frac{4}{12},,flash;fractions;mult_equivalent,validé,fr

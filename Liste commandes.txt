@@ -1,0 +1,26 @@
+
+Fiche 3e avec compilation automatique :
+python generate_flash.py --level 3e --n 5 --compile --open
+
+
+Fiche 4e sur les équations uniquement :
+python generate_flash.py --level 4e --topic equations --n 3 --title "Contrôle équations 4e" --compile
+
+
+Questions faciles tous niveaux :
+python generate_flash.py --max-difficulty 2 --n 4 --title "Questions Flash faciles" --compile
+
+
+Mélange 3e et 4e, thèmes spécifiques :
+python generate_flash.py --level 3e 4e --topic pythagore thales puissances --n 5 --compile --open
+
+
+
+--level : Niveaux (3e, 4e, 5e, 6e)
+--topic : Thèmes (pythagore, thales, equations, puissances, fractions, etc.)
+--n : Nombre de questions (max 5 pour le tableau)
+--max-difficulty : Difficulté max (1=facile à 5=difficile)
+--title : Titre personnalisé
+--compile : Compiler en PDF automatiquement
+--open : Ouvrir le PDF après création
+--clean : Supprimer les fichiers temporaires LaTeX

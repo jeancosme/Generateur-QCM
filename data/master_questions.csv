@@ -1,0 +1,418 @@
+uid,level,topic,subtopic,skill,format,difficulty,time_s,stem_tex,answer_tex,distractors_tex,figure_url,tags,status,language,source_file
+CL3E001,3e,calcul_litteral,addition,calcul,QCM,1,30,Simplifier : $2x + 3x$,$5x$,$6x$|$x$|$2x^2$,,flash;calcul_litteral;addition,à valider,fr,calcul_litteral.csv
+CL3E002,3e,calcul_litteral,soustraction,calcul,QCM,1,30,Simplifier : $4a - 2a + a$,$3a$,$2a$|$a$|$7a$,,flash;calcul_litteral;soustraction,à valider,fr,calcul_litteral.csv
+CL3E003,3e,calcul_litteral,developpement,calcul,QCM,2,35,Développer : $3(x + 2)$,$3x + 6$,$3x + 2$|$x + 6$|$6x + 3$,,flash;calcul_litteral;developpement,à valider,fr,calcul_litteral.csv
+CL3E004,3e,calcul_litteral,factorisation,calcul,QCM,2,35,Factoriser : $6y + 9$,$3(2y + 3)$,$2(3y + 4.5)$|$6(y + 1.5)$|$3y + 9$,,flash;calcul_litteral;factorisation,à valider,fr,calcul_litteral.csv
+CL3E005,3e,calcul_litteral,parentheses,calcul,QCM,2,35,Simplifier : $5b - (2b + 3)$,$3b - 3$,$7b + 3$|$3b + 3$|$-3b + 3$,,flash;calcul_litteral;parentheses,à valider,fr,calcul_litteral.csv
+CL3E006,3e,calcul_litteral,developpement,calcul,QCM,1,30,Développer : $2(a - 4)$,$2a - 8$,$2a + 8$|$a - 8$|$2a - 4$,,flash;calcul_litteral;developpement,à valider,fr,calcul_litteral.csv
+CL3E007,3e,calcul_litteral,factorisation,calcul,QCM,2,35,Factoriser : $8x - 12$,$4(2x - 3)$,$2(4x - 6)$|$8(x - 1.5)$|$4x - 12$,,flash;calcul_litteral;factorisation,à valider,fr,calcul_litteral.csv
+CL3E008,3e,calcul_litteral,addition,calcul,QCM,1,30,Simplifier : $7m + 2m - 5m$,$4m$,$9m$|$2m$|$-4m$,,flash;calcul_litteral;addition,à valider,fr,calcul_litteral.csv
+CL3E009,3e,calcul_litteral,developpement,calcul,QCM,2,35,Développer : $x(x + 5)$,$x^2 + 5x$,$x^2 + x + 5$|$x^2 + 10x$|$x + 5x$,,flash;calcul_litteral;developpement,à valider,fr,calcul_litteral.csv
+CL3E010,3e,calcul_litteral,factorisation,calcul,QCM,2,35,Factoriser : $10z + 15$,$5(2z + 3)$,$2(5z + 7.5)$|$10(z + 1.5)$|$5z + 15$,,flash;calcul_litteral;factorisation,à valider,fr,calcul_litteral.csv
+CL3E011,3e,calcul_litteral,parentheses,calcul,QCM,2,35,Simplifier : $3p - 2(p + 4)$,$p - 8$,$p + 8$|$5p - 8$|$p + 4$,,flash;calcul_litteral;parentheses,à valider,fr,calcul_litteral.csv
+CL3E012,3e,calcul_litteral,developpement,calcul,QCM,1,30,Développer : $4(y - 3)$,$4y - 12$,$4y + 12$|$y - 12$|$4y - 3$,,flash;calcul_litteral;developpement,à valider,fr,calcul_litteral.csv
+CL3E013,3e,calcul_litteral,factorisation,calcul,QCM,2,35,Factoriser : $9x - 6$,$3(3x - 2)$,$9(x - 0.66)$|$6(1.5x - 1)$|$3x - 6$,,flash;calcul_litteral;factorisation,à valider,fr,calcul_litteral.csv
+CL3E014,3e,calcul_litteral,addition,calcul,QCM,1,30,Simplifier : $8a + 2a - 5a$,$5a$,$10a$|$3a$|$-5a$,,flash;calcul_litteral;addition,à valider,fr,calcul_litteral.csv
+CL3E015,3e,calcul_litteral,developpement,calcul,QCM,2,35,Développer : $2(x + 7)$,$2x + 14$,$2x + 7$|$x + 14$|$14x + 2$,,flash;calcul_litteral;developpement,à valider,fr,calcul_litteral.csv
+CL3E016,3e,calcul_litteral,factorisation,calcul,QCM,2,35,Factoriser : $12y + 18$,$6(2y + 3)$,$3(4y + 6)$|$12(y + 1.5)$|$6y + 18$,,flash;calcul_litteral;factorisation,à valider,fr,calcul_litteral.csv
+CL3E017,3e,calcul_litteral,parentheses,calcul,QCM,2,35,Simplifier : $6b - (b + 5)$,$5b - 5$,$7b + 5$|$5b + 5$|$-5b + 5$,,flash;calcul_litteral;parentheses,à valider,fr,calcul_litteral.csv
+CL3E018,3e,calcul_litteral,developpement,calcul,QCM,1,30,Développer : $5(a - 2)$,$5a - 10$,$5a + 10$|$a - 10$|$5a - 2$,,flash;calcul_litteral;developpement,à valider,fr,calcul_litteral.csv
+CL3E019,3e,calcul_litteral,factorisation,calcul,QCM,2,35,Factoriser : $14x - 21$,$7(2x - 3)$,$2(7x - 10.5)$|$14(x - 1.5)$|$7x - 21$,,flash;calcul_litteral;factorisation,à valider,fr,calcul_litteral.csv
+CL3E020,3e,calcul_litteral,addition,calcul,QCM,1,30,Simplifier : $9m + 3m - 4m$,$8m$,$12m$|$6m$|$-8m$,,flash;calcul_litteral;addition,à valider,fr,calcul_litteral.csv
+CL3E021,3e,calcul_litteral,equation,calcul,QCM,2,40,Résoudre : $x + 5 = 12$,$x = 7$,$x = 17$|$x = -7$|$x = 12$,,flash;calcul_litteral;equation,à valider,fr,calcul_litteral.csv
+CL3E022,3e,calcul_litteral,equation,calcul,QCM,2,40,Résoudre : $2x = 10$,$x = 5$,$x = 20$|$x = -5$|$x = 8$,,flash;calcul_litteral;equation,à valider,fr,calcul_litteral.csv
+CL3E023,3e,calcul_litteral,equation,calcul,QCM,2,40,Résoudre : $3x - 4 = 5$,$x = 3$,$x = -3$|$x = 1$|$x = 9$,,flash;calcul_litteral;equation,à valider,fr,calcul_litteral.csv
+CL3E025,3e,calcul_litteral,equation,calcul,QCM,2,40,Résoudre : $5x + 2 = 17$,$x = 3$,$x = 5$|$x = -3$|$x = 15$,,flash;calcul_litteral;equation,à valider,fr,calcul_litteral.csv
+CL3E026,3e,calcul_litteral,equation,calcul,QCM,2,40,Résoudre : $4x - 8 = 0$,$x = 2$,$x = -2$|$x = 8$|$x = 4$,,flash;calcul_litteral;equation,à valider,fr,calcul_litteral.csv
+CL3E027,3e,calcul_litteral,equation,calcul,QCM,2,40,Résoudre : $x - 7 = -2$,$x = 5$,$x = -5$|$x = 9$|$x = 2$,,flash;calcul_litteral;equation,à valider,fr,calcul_litteral.csv
+CL3E028,3e,calcul_litteral,equation,calcul,QCM,2,40,Résoudre : $2x + 3 = 11$,$x = 4$,$x = 8$|$x = -4$|$x = 14$,,flash;calcul_litteral;equation,à valider,fr,calcul_litteral.csv
+CL3E030,3e,calcul_litteral,equation,calcul,QCM,2,40,Résoudre : $7x = 21$,$x = 3$,$x = 7$|$x = -3$|$x = 21$,,flash;calcul_litteral;equation,à valider,fr,calcul_litteral.csv
+CL3E031,3e,calcul_litteral,produit_nul,calcul,QCM,2,40,Résoudre : $x(x - 4) = 0$,$x = 0$ ou $x = 4$,$x = -4$|$x = 1$|$x = 2$,,flash;calcul_litteral;produit_nul,à valider,fr,calcul_litteral.csv
+CL3E032,3e,calcul_litteral,produit_nul,calcul,QCM,2,40,Résoudre : $(x + 3)(x - 2) = 0$,$x = -3$ ou $x = 2$,$x = 3$|$x = -2$|$x = 0$,,flash;calcul_litteral;produit_nul,à valider,fr,calcul_litteral.csv
+CL3E033,3e,calcul_litteral,produit_nul,calcul,QCM,2,40,Résoudre : $2x(x + 5) = 0$,$x = 0$ ou $x = -5$,$x = 2$|$x = 5$|$x = -2$,,flash;calcul_litteral;produit_nul,à valider,fr,calcul_litteral.csv
+CL3E034,3e,calcul_litteral,produit_nul,calcul,QCM,2,40,Résoudre : $(x - 7)(x + 1) = 0$,$x = 7$ ou $x = -1$,$x = -7$|$x = 1$|$x = 0$,,flash;calcul_litteral;produit_nul,à valider,fr,calcul_litteral.csv
+CL3E035,3e,calcul_litteral,produit_nul,calcul,QCM,2,40,Résoudre : $x^2 - 9 = 0$,$x = 3$ ou $x = -3$,$x = 9$|$x = -9$|$x = 0$,,flash;calcul_litteral;produit_nul,à valider,fr,calcul_litteral.csv
+CL3E036,3e,calcul_litteral,produit_nul,calcul,QCM,2,40,Résoudre : $(2x - 4)(x + 2) = 0$,$x = 2$ ou $x = -2$,$x = -4$|$x = 4$|$x = 0$,,flash;calcul_litteral;produit_nul,à valider,fr,calcul_litteral.csv
+CL3E037,3e,calcul_litteral,produit_nul,calcul,QCM,2,40,Résoudre : $(x + 8)(x - 8) = 0$,$x = -8$ ou $x = 8$,$x = 0$|$x = 1$|$x = -1$,,flash;calcul_litteral;produit_nul,à valider,fr,calcul_litteral.csv
+CL3E038,3e,calcul_litteral,produit_nul,calcul,QCM,2,40,Résoudre : $x^2 = 0$,$x = 0$,$x = 2$|$x = -2$|$x = 1$,,flash;calcul_litteral;produit_nul,à valider,fr,calcul_litteral.csv
+CL3E039,3e,calcul_litteral,identite_remarquable,calcul,QCM,2,40,Développer : $(a + b)^2$,$a^2 + 2ab + b^2$,$a^2 + b^2$|$a^2 + ab + b^2$|$a^2 - 2ab + b^2$,,flash;calcul_litteral;identite_remarquable,à valider,fr,calcul_litteral.csv
+CL3E040,3e,calcul_litteral,identite_remarquable,calcul,QCM,2,40,Développer : $(a - b)^2$,$a^2 - 2ab + b^2$,$a^2 + b^2$|$a^2 - ab + b^2$|$a^2 + 2ab + b^2$,,flash;calcul_litteral;identite_remarquable,à valider,fr,calcul_litteral.csv
+CL3E041,3e,calcul_litteral,identite_remarquable,calcul,QCM,2,40,Développer : $(x + 3)^2$,$x^2 + 6x + 9$,$x^2 + 9$|$x^2 + 3x + 9$|$x^2 - 6x + 9$,,flash;calcul_litteral;identite_remarquable,à valider,fr,calcul_litteral.csv
+CL3E042,3e,calcul_litteral,identite_remarquable,calcul,QCM,2,40,Développer : $(y - 5)^2$,$y^2 - 10y + 25$,$y^2 + 25$|$y^2 - 5y + 25$|$y^2 + 10y + 25$,,flash;calcul_litteral;identite_remarquable,à valider,fr,calcul_litteral.csv
+CL3E043,3e,calcul_litteral,identite_remarquable,calcul,QCM,2,40,Développer : $(m + 2)^2$,$m^2 + 4m + 4$,$m^2 + 2m + 4$|$m^2 + 4$|$m^2 - 4m + 4$,,flash;calcul_litteral;identite_remarquable,à valider,fr,calcul_litteral.csv
+CL3E044,3e,calcul_litteral,identite_remarquable,calcul,QCM,2,40,Développer : $(p - 7)^2$,$p^2 - 14p + 49$,$p^2 + 49$|$p^2 - 7p + 49$|$p^2 + 14p + 49$,,flash;calcul_litteral;identite_remarquable,à valider,fr,calcul_litteral.csv
+CL3E045,3e,calcul_litteral,identite_remarquable,calcul,QCM,2,40,Développer : $(a + b)(a - b)$,$a^2 - b^2$,$a^2 + b^2$|$a^2 - 2ab + b^2$|$a^2 + 2ab + b^2$,,flash;calcul_litteral;identite_remarquable,à valider,fr,calcul_litteral.csv
+CL3E046,3e,calcul_litteral,identite_remarquable,calcul,QCM,2,40,Développer : $(x + 4)(x - 4)$,$x^2 - 16$,$x^2 + 16$|$x^2 - 8x + 16$|$x^2 + 8x + 16$,,flash;calcul_litteral;identite_remarquable,à valider,fr,calcul_litteral.csv
+CL3E047,3e,calcul_litteral,identite_remarquable,calcul,QCM,2,40,Développer : $(y + 6)(y - 6)$,$y^2 - 36$,$y^2 + 36$|$y^2 - 12y + 36$|$y^2 + 12y + 36$,,flash;calcul_litteral;identite_remarquable,à valider,fr,calcul_litteral.csv
+CL3E048,3e,calcul_litteral,identite_remarquable,calcul,QCM,2,40,Développer : $(m - 3)(m + 3)$,$m^2 - 9$,$m^2 + 9$|$m^2 - 6m + 9$|$m^2 + 6m + 9$,,flash;calcul_litteral;identite_remarquable,à valider,fr,calcul_litteral.csv
+FON3E004,3e,fonctions,lecture_graphique,lecture,QCM,2,50,"D'après le tableau : x → 0, 1, 2, 3 et f(x) → 0, 3, 6, 9. Calculer f(2).",6,3|9|2,,flash;fonctions;tableau_valeurs,validé,fr,fonctions.csv
+FON3E005,3e,fonctions,lecture_graphique,lecture,QCM,2,40,"La courbe passe par (0, 2) et (3, 8). Quelle est f(0) ?",2,3|8|0,,flash;fonctions;lecture_ordonnee_origine,validé,fr,fonctions.csv
+FON3E006,3e,fonctions,lecture_graphique,lecture,QCM,3,60,"D'après le graphique, combien y a-t-il d'antécédents de 4 ?",2,1|3|0,,flash;fonctions;nombre_antecedents,validé,fr,fonctions.csv
+FON3E007,3e,fonctions,lecture_graphique,lecture,QCM,2,45,"Le point (5, -1) est sur la courbe. Alors f(5) = ?",-1,5|4|-5,,flash;fonctions;coordonnees_negatives,validé,fr,fonctions.csv
+FON3E009,3e,fonctions,fonctions_lineaires,calcul,QCM,1,30,"Si f(x) = 4x, calculer f(3).",12,7|16|34,,flash;fonctions;lineaire_calcul,validé,fr,fonctions.csv
+FON3E010,3e,fonctions,fonctions_lineaires,calcul,QCM,1,30,"Si g(x) = -2x, calculer g(-5).",10,2|-10|-2,,flash;fonctions;lineaire_negatif,validé,fr,fonctions.csv
+FON3E011,3e,fonctions,fonctions_lineaires,calcul,QCM,2,45,Une fonction linéaire vérifie f(2) = 8. Quelle est son expression ?,f(x) = 4x,f(x) = 2x + 4|f(x) = 6x|f(x) = x + 6,,flash;fonctions;determiner_lineaire,validé,fr,fonctions.csv
+FON3E012,3e,fonctions,fonctions_lineaires,propriete,QCM,2,40,"Si f(x) = 3x, alors f(2 × 5) = ?",30,15|6|10,,flash;fonctions;propriete_lineaire,validé,fr,fonctions.csv
+FON3E013,3e,fonctions,fonctions_lineaires,reconnaissance,QCM,2,35,Laquelle est une fonction linéaire ?,f(x) = 5x,f(x) = x + 2|f(x) = x²|f(x) = 3x - 1,,flash;fonctions;reconnaissance_lineaire,validé,fr,fonctions.csv
+FON3E014,3e,fonctions,fonctions_affines,calcul,QCM,2,40,"Si h(x) = 2x + 3, calculer h(4).",11,5|8|23,,flash;fonctions;affine_calcul,validé,fr,fonctions.csv
+FON3E015,3e,fonctions,fonctions_affines,calcul,QCM,2,40,"Si k(x) = -x + 5, calculer k(2).",3,7|-3|2,,flash;fonctions;affine_coefficient_negatif,validé,fr,fonctions.csv
+FON3E016,3e,fonctions,fonctions_affines,calcul,QCM,3,60,"Si f(x) = 3x - 1, calculer f(-2).",7,-7|5|-5,,flash;fonctions;affine_valeur_negative,validé,fr,fonctions.csv
+FON3E018,3e,fonctions,fonctions_affines,lecture,QCM,2,45,"Dans f(x) = -2x + 4, le coefficient directeur est :",-2,2|4|-4,,flash;fonctions;coefficient_directeur,validé,fr,fonctions.csv
+FON3E019,3e,fonctions,notation,vocabulaire,QCM,1,25,La notation f : x → 2x + 1 signifie :,f(x) = 2x + 1,x = 2f + 1|f = 2x + 1|2x = f + 1,,flash;fonctions;notation_fleche,validé,fr,fonctions.csv
+FON3E020,3e,fonctions,vocabulaire,definition,QCM,1,30,"Si f(3) = 7, alors 3 est :",un antécédent de 7,l'image de 7|la fonction|le coefficient,,flash;fonctions;vocabulaire_antecedent,validé,fr,fonctions.csv
+ST3E001,3e,statistiques,moyenne_ponderee,calcul,QCM,2,60,Calculer la moyenne pondérée : note 12 (coeff 2) ; note 16 (coeff 3) ; note 8 (coeff 1),13.33,12.67|11.5|14,,flash;statistiques;moyenne_ponderee,validé,fr,statistiques.csv
+ST3E002,3e,statistiques,mediane,position,QCM,2,45,Une série a 15 valeurs. Quelle est la position de la médiane ?,8ème,7ème|15ème|16ème,,flash;statistiques;position_mediane,validé,fr,statistiques.csv
+ST3E003,3e,statistiques,etendue,decimales,QCM,2,45,Calculer l'étendue de : 2.7 ; 5.3 ; 1.8 ; 6.9 ; 4.1 ; 3.5,5.1,4.8|5.6|4.2,,flash;statistiques;etendue_decimale,validé,fr,statistiques.csv
+ST3E005,3e,statistiques,mediane,calcul_pair,QCM,2,45,Quelle est la médiane de cette série de 20 valeurs ordonnées si la 10ème vaut 45 et la 11ème vaut 47 ?,46,45|47|45.5,,flash;statistiques;mediane_pair_complexe,validé,fr,statistiques.csv
+ST3E006,3e,statistiques,moyenne,suppression,QCM,3,60,La moyenne de 8 valeurs est 15. Si on enlève une valeur égale à 23 quelle devient la nouvelle moyenne ?,13.7,14.1|14.3|13.1,,flash;statistiques;moyenne_suppression,validé,fr,statistiques.csv
+ST3E007,3e,statistiques,etendue,temperatures,QCM,2,45,Une série de 9 températures a une étendue de 18°C. La température maximale est 31°C. Quelle est la minimale ?,13°C,12°C|14°C|15°C,,flash;statistiques;etendue_contexte,validé,fr,statistiques.csv
+ST3E009,3e,statistiques,moyenne_ponderee,simple,QCM,2,45,Moyenne pondérée de 14 (coeff 4) et 10 (coeff 6) :,11.6,12|12.4|11.2,,flash;statistiques;moyenne_ponderee_simple,validé,fr,statistiques.csv
+ST3E010,3e,statistiques,mediane,transformation,QCM,3,60,Une série a pour médiane 25. On multiplie chaque valeur par 3. La nouvelle médiane est :,75,25|8.33|Impossible à calculer,,flash;statistiques;mediane_transformation,validé,fr,statistiques.csv
+ST3E011,3e,statistiques,etendue,salaires,QCM,2,45,L'étendue d'une série de salaires est 2400€. Le salaire max est 3500€. Quel est le salaire min ?,1100€,1200€|1000€|1300€,,flash;statistiques;etendue_contexte,validé,fr,statistiques.csv
+ST3E012,3e,statistiques,moyenne,ecart_type,QCM,2,30,Dans une classe la moyenne en maths est 12.5 avec un écart-type de 3.2. Un élève a 16. Sa note est-elle :,Au-dessus de la moyenne,Dans la moyenne|En dessous de la moyenne|Exactement la moyenne,,flash;statistiques;interpretation_ecart,validé,fr,statistiques.csv
+ST3E013,3e,statistiques,mediane,negatifs,QCM,2,45,Calculer la médiane de : -5 ; -2 ; 0 ; 3 ; 7 ; 11 ; 15,3,0|5|7,,flash;statistiques;mediane_negatifs,validé,fr,statistiques.csv
+ST3E015,3e,statistiques,etendue,transformation,QCM,3,60,L'étendue d'une série est divisée par 2 si on :,Divise chaque valeur par 2,Soustrait 2 à chaque valeur|Ajoute la même constante|Enlève les valeurs extrêmes,,flash;statistiques;transformation_etendue,validé,fr,statistiques.csv
+ST3E016,3e,statistiques,mediane,propriete,QCM,2,30,Une médiane sépare une série en deux groupes de :,Même effectif,Même moyenne|Même étendue|Même variance,,flash;statistiques;propriete_mediane,validé,fr,statistiques.csv
+ST3E017,3e,statistiques,moyenne,negatifs,QCM,2,45,Calculer la moyenne de -8 ; -3 ; 2 ; 5 ; 12 ; -1 ; 7,2,1.4|3|0,,flash;statistiques;moyenne_negatifs,validé,fr,statistiques.csv
+ST3E019,3e,statistiques,mediane,incomplete,QCM,3,60,Une série de prix a une médiane de 85€ et une étendue de 60€. Le prix minimum possible est :,Dépend du maximum,25€|145€|Cannot be determined,,flash;statistiques;donnees_incompletes,validé,fr,statistiques.csv
+ST3E020,3e,statistiques,moyenne,ajout_cible,QCM,3,60,La moyenne de 5;7;9;11;13 est 9. Si on ajoute une 6ème valeur pour que la nouvelle moyenne soit 10 cette valeur est :,15,12|10|18,,flash;statistiques;moyenne_ajout_cible,validé,fr,statistiques.csv
+THA3E001,3e,thales,theoreme_direct,calcul,QCM,2,60,"Si $\frac{AB}{AD} = \frac{AC}{AE}$ et AB = 3, AD = 5, AC = 9, alors AE = ?",15,12|6|45,,flash;thales;calcul_longueur,validé,fr,thales.csv
+THA3E002,3e,thales,theoreme_direct,calcul,QCM,2,60,"Si $\frac{MN}{MP} = \frac{MO}{MQ}$ et MN = 4, MP = 6, MO = 10, alors MQ = ?",15,12|8|24,,flash;thales;calcul_longueur,validé,fr,thales.csv
+THA3E003,3e,thales,theoreme_direct,calcul,QCM,2,75,"Triangle ABC, (DE) // (BC). AD = 2, AB = 5, AE = 3. Calculer AC.","7,5","6|4,5|10",,flash;thales;droites_paralleles,validé,fr,thales.csv
+THA3E004,3e,thales,theoreme_direct,calcul,QCM,3,90,"Si $\frac{AB}{AD} = \frac{2}{3}$ et AC = 12, calculer AE sachant que (BC) // (DE).",18,8|6|36,,flash;thales;rapport_donne,validé,fr,thales.csv
+THA3E005,3e,thales,reciproque,verification,QCM,2,75,"AB = 6, AD = 9, AC = 8, AE = 12. Les droites (BC) et (DE) sont-elles parallèles ?",Oui,Non|Impossible à dire|Il manque des données,,flash;thales;verification_parallelisme,validé,fr,thales.csv
+THA3E006,3e,thales,reciproque,verification,QCM,2,75,"MN = 3, MP = 7, MO = 4, MQ = 9. Les droites (NO) et (PQ) sont-elles parallèles ?",Non,Oui|Presque|Impossible à déterminer,,flash;thales;verification_parallelisme,validé,fr,thales.csv
+THA3E007,3e,thales,theoreme_direct,calcul,QCM,2,60,"Triangle RST, (UV) // (ST). RU = 4, RS = 10, RV = 5. Calculer RT.","12,5",8|15|6,,flash;thales;triangle_configuration,validé,fr,thales.csv
+THA3E008,3e,thales,theoreme_direct,calcul,QCM,3,90,"Si $\frac{AB}{AD} = \frac{AC}{AE} = \frac{3}{4}$ et BC = 6, calculer DE.",8,"4,5|9|12",,flash;thales;rapport_fractionnaire,validé,fr,thales.csv
+THA3E009,3e,thales,theoreme_direct,calcul,QCM,2,75,"Triangle ABC, point M sur [AB], point N sur [AC]. AM = 2, AB = 8, AN = 3. Si (MN) // (BC), calculer AC.",12,6|9|24,,flash;thales;points_sur_cotes,validé,fr,thales.csv
+THA3E010,3e,thales,reciproque,verification,QCM,3,90,"AB = 4, AD = 7, AC = 6, AE = 10,5. Vérifier si (BC) // (DE).",Oui,Non|Presque parallèles|Données insuffisantes,,flash;thales;verification_decimaux,validé,fr,thales.csv
+THA3E011,3e,thales,theoreme_direct,calcul,QCM,2,60,"Si $\frac{PQ}{PR} = \frac{PS}{PT}$ et PQ = 5, PR = 8, PS = 7, calculer PT.","11,2","9|14|5,6",,flash;thales;calcul_decimal,validé,fr,thales.csv
+THA3E012,3e,thales,theoreme_direct,calcul,QCM,3,90,"Configuration de Thalès : AB = 6, BD = 4, AC = 9. Si (DE) // (BC), calculer CE.",6,3|12|15,,flash;thales;configuration_papillon,validé,fr,thales.csv
+THA3E013,3e,thales,reciproque,verification,QCM,2,75,"EF = 5, EG = 12, EH = 4, EI = 9,6. Les droites (FH) et (GI) sont-elles parallèles ?",Oui,Non|Impossible|Presque parallèles,,flash;thales;verification_exacte,validé,fr,thales.csv
+THA3E014,3e,thales,theoreme_direct,calcul,QCM,2,60,"Triangle ABC, (MN) // (BC). AM = 3, MB = 2, AN = 4,5. Calculer NC.",3,"1,5|6|9",,flash;thales;segments_adjacents,validé,fr,thales.csv
+THA3E015,3e,thales,theoreme_direct,calcul,QCM,3,90,"Si $\frac{AB}{AC} = \frac{2}{5}$ et BD = 8 avec (BD) // (CE), calculer CE.",20,16|10|4,,flash;thales;rapport_inverse,validé,fr,thales.csv
+THA3E016,3e,thales,reciproque,verification,QCM,3,90,"AB = 2,4, AD = 4, AC = 3,6, AE = 6. (BC) // (DE) ?",Oui,Non|Approximativement|Données incohérentes,,flash;thales;verification_decimaux_precis,validé,fr,thales.csv
+THA3E017,3e,thales,theoreme_direct,calcul,QCM,2,75,"Triangle DEF, (GH) // (EF). DG = 5, GE = 3, DH = 7. Calculer HF.","4,2","3,5|5,6|2,1",,flash;thales;calcul_complement,validé,fr,thales.csv
+THA3E018,3e,thales,theoreme_direct,calcul,QCM,2,60,"Si les rapports sont égaux à $\frac{3}{5}$ et AB = 9, calculer AD.",15,"6|5,4|27",,flash;thales;calcul_denominateur,validé,fr,thales.csv
+THA3E019,3e,thales,reciproque,verification,QCM,2,75,"PQ = 6, PR = 10, PS = 9, PT = 15. (QS) // (RT) ?",Oui,Non|Presque|Il faut plus de données,,flash;thales;verification_simple,validé,fr,thales.csv
+THA3E020,3e,thales,theoreme_direct,calcul,QCM,3,90,"Configuration croisée : AB = 8, BC = 6, AD = 12. Si (BC) // (DE), calculer DE.",9,4|18|12,,flash;thales;configuration_croisee,validé,fr,thales.csv
+TRI3E001,3e,trigonometrie,cosinus,calcul,QCM,2,45,"Dans un triangle rectangle, si l'angle aigu mesure 60° et l'hypoténuse 8 cm, le côté adjacent mesure :",4 cm,"6,9 cm|8 cm|4,6 cm",,flash;trigo;cosinus,validé,fr,trigonometrie.csv
+TRI3E002,3e,trigonometrie,sinus,calcul,QCM,2,45,"Dans un triangle rectangle, si l'angle aigu mesure 30° et l'hypoténuse 10 cm, le côté opposé mesure :",5 cm,"8,7 cm|10 cm|5,8 cm",,flash;trigo;sinus,validé,fr,trigonometrie.csv
+TRI3E003,3e,trigonometrie,tangente,calcul,QCM,2,50,"Dans un triangle rectangle, côté opposé = 6 cm, côté adjacent = 8 cm. La tangente de l'angle est :","0,75","1,33|0,6|1,25",,flash;trigo;tangente,validé,fr,trigonometrie.csv
+TRI3E004,3e,trigonometrie,cosinus,calcul,QCM,2,60,"Triangle rectangle : hypoténuse = 12 cm, côté adjacent = 9 cm. $\cos(\alpha) = ?$","0,75","0,6|1,33|0,8",,flash;trigo;rapport_cosinus,validé,fr,trigonometrie.csv
+TRI3E005,3e,trigonometrie,sinus,calcul,QCM,2,60,"Triangle rectangle : hypoténuse = 15 cm, côté opposé = 12 cm. $\sin(\alpha) = ?$","0,8","0,6|1,25|0,75",,flash;trigo;rapport_sinus,validé,fr,trigonometrie.csv
+TRI3E006,3e,trigonometrie,angle,calcul,QCM,3,75,"Si $\cos(\alpha) = 0,6$, alors l'angle $\alpha$ mesure environ :",53°,37°|30°|60°,,flash;trigo;angle_par_cosinus,validé,fr,trigonometrie.csv
+TRI3E007,3e,trigonometrie,angle,calcul,QCM,3,75,"Si $\sin(\beta) = 0,5$, alors l'angle $\beta$ mesure :",30°,60°|45°|37°,,flash;trigo;angle_par_sinus,validé,fr,trigonometrie.csv
+TRI3E008,3e,trigonometrie,tangente,calcul,QCM,3,80,"Si $\tan(\gamma) = 1$, alors l'angle $\gamma$ mesure :",45°,30°|60°|37°,,flash;trigo;angle_par_tangente,validé,fr,trigonometrie.csv
+TRI3E009,3e,trigonometrie,longueur,calcul,QCM,3,90,"Triangle rectangle, angle de 37°, côté adjacent = 8 cm. Le côté opposé mesure environ :",6 cm,"9,6 cm|10,7 cm|4,8 cm",,flash;trigo;calcul_oppose,validé,fr,trigonometrie.csv
+TRI3E010,3e,trigonometrie,longueur,calcul,QCM,3,90,"Triangle rectangle, angle de 53°, côté opposé = 12 cm. L'hypoténuse mesure environ :",15 cm,"9,6 cm|20 cm|10 cm",,flash;trigo;calcul_hypotenuse,validé,fr,trigonometrie.csv
+TRI3E011,3e,trigonometrie,definition,connaissance,QCM,1,30,"Dans un triangle rectangle, $\cos(\alpha) = \frac{?}{hypoténuse}$",côté adjacent,côté opposé|tangente|sinus,,flash;trigo;definition_cosinus,validé,fr,trigonometrie.csv
+TRI3E012,3e,trigonometrie,definition,connaissance,QCM,1,30,"Dans un triangle rectangle, $\sin(\alpha) = \frac{?}{hypoténuse}$",côté opposé,côté adjacent|cosinus|tangente,,flash;trigo;definition_sinus,validé,fr,trigonometrie.csv
+TRI3E013,3e,trigonometrie,definition,connaissance,QCM,1,35,"Dans un triangle rectangle, $\tan(\alpha) = \frac{côté opposé}{?}$",côté adjacent,hypoténuse|côté opposé|sinus,,flash;trigo;definition_tangente,validé,fr,trigonometrie.csv
+TRI3E014,3e,trigonometrie,valeurs_remarquables,connaissance,QCM,2,40,$\cos(60°) = ?$,"0,5","0,87|0,71|1",,flash;trigo;valeur_remarquable,validé,fr,trigonometrie.csv
+TRI3E015,3e,trigonometrie,valeurs_remarquables,connaissance,QCM,2,40,$\sin(45°) = ?$,$\frac{\sqrt{2}}{2}$,"0,5|$\frac{\sqrt{3}}{2}$|1",,flash;trigo;valeur_remarquable,validé,fr,trigonometrie.csv
+TRI3E016,3e,trigonometrie,longueur,calcul,QCM,3,85,"Angle de 60°, hypoténuse = 14 cm. Le côté adjacent mesure :",7 cm,"12,1 cm|14 cm|8,1 cm",,flash;trigo;calcul_adjacent,validé,fr,trigonometrie.csv
+TRI3E017,3e,trigonometrie,angle,calcul,QCM,3,80,"Côté opposé = 5 cm, côté adjacent = 12 cm. L'angle mesure environ :",23°,67°|45°|30°,,flash;trigo;angle_par_tangente_calcul,validé,fr,trigonometrie.csv
+TRI3E018,3e,trigonometrie,longueur,calcul,QCM,3,90,"Angle de 45°, côté adjacent = 10 cm. Le côté opposé mesure :",10 cm,"14,1 cm|7,1 cm|5 cm",,flash;trigo;egalite_45_degres,validé,fr,trigonometrie.csv
+TRI3E019,3e,trigonometrie,rapport,calcul,QCM,2,50,"Triangle rectangle : côté opposé = 7 cm, hypoténuse = 25 cm. $\sin(\alpha) = ?$","0,28","0,35|0,96|3,57",,flash;trigo;calcul_sinus,validé,fr,trigonometrie.csv
+TRI3E020,3e,trigonometrie,rapport,calcul,QCM,2,55,"Triangle rectangle : côté adjacent = 15 cm, côté opposé = 20 cm. $\tan(\alpha) = ?$","1,33","0,75|0,6|1,67",,flash;trigo;calcul_tangente,validé,fr,trigonometrie.csv
+LIT4E001,4e,calcul_litteral,reduction,calcul,QCM,2,45,Réduire : $3x + 2x - x$,$4x$,$6x$|$2x$|$5x$,,flash;litteral;reduction_simple,validé,fr,calcul_litteral.csv
+LIT4E002,4e,calcul_litteral,reduction,calcul,QCM,2,45,Réduire : $5a - 3a + 7a$,$9a$,$15a$|$a$|$7a$,,flash;litteral;reduction_simple,validé,fr,calcul_litteral.csv
+LIT4E003,4e,calcul_litteral,reduction,calcul,QCM,2,50,Réduire : $2x^2 + 3x^2 - x^2$,$4x^2$,$6x^2$|$2x^2$|$5x^2$,,flash;litteral;reduction_carres,validé,fr,calcul_litteral.csv
+LIT4E004,4e,calcul_litteral,reduction,calcul,QCM,2,50,Réduire : $4x + 3 - 2x + 5$,$2x + 8$,$6x + 8$|$2x + 2$|$4x + 8$,,flash;litteral;reduction_constantes,validé,fr,calcul_litteral.csv
+LIT4E005,4e,calcul_litteral,reduction,calcul,QCM,3,60,Réduire : $3a^2 + 2a - a^2 + 4a$,$2a^2 + 6a$,$4a^2 + 6a$|$2a^2 + 2a$|$3a^2 + 6a$,,flash;litteral;reduction_mixte,validé,fr,calcul_litteral.csv
+LIT4E006,4e,calcul_litteral,equations,resolution,QCM,2,60,Résoudre : $2x + 3 = 7$,$x = 2$,$x = 4$|$x = 5$|$x = 10$,,flash;litteral;equation_simple,validé,fr,calcul_litteral.csv
+LIT4E007,4e,calcul_litteral,equations,resolution,QCM,2,60,Résoudre : $3x - 5 = 10$,$x = 5$,$x = 3$|$x = 15$|$x = 2$,,flash;litteral;equation_simple,validé,fr,calcul_litteral.csv
+LIT4E008,4e,calcul_litteral,equations,resolution,QCM,3,90,Résoudre : $2x + 1 = x + 4$,$x = 3$,$x = 1$|$x = 5$|$x = -3$,,flash;litteral;equation_inconnue_deux_membres,validé,fr,calcul_litteral.csv
+LIT4E009,4e,calcul_litteral,factorisation,calcul,QCM,2,45,Factoriser : $6x + 9$,$3(2x + 3)$,$3(6x + 9)$|$6(x + 9)$|$(6x + 3) \times 3$,,flash;litteral;factorisation_simple,validé,fr,calcul_litteral.csv
+LIT4E010,4e,calcul_litteral,factorisation,calcul,QCM,2,50,Factoriser : $x^2 + 3x$,$x(x + 3)$,$x(x^2 + 3)$|$(x + 3)^2$|$x^2(1 + 3x)$,,flash;litteral;factorisation_facteur_commun,validé,fr,calcul_litteral.csv
+LIT4E011,4e,calcul_litteral,developpement,calcul,QCM,2,40,Développer : $(x + 2)(x + 3)$,$x^2 + 5x + 6$,$x^2 + 6$|$2x^2 + 5x + 6$|$x^2 + 5x + 5$,,flash;litteral;double_distributivite,validé,fr,calcul_litteral.csv
+LIT4E012,4e,calcul_litteral,developpement,calcul,QCM,3,50,Développer : $(2a - 1)(a + 4)$,$2a^2 + 7a - 4$,$2a^2 - a + 4$|$2a^2 + 8a - 4$|$2a^2 + 7a + 4$,,flash;litteral;double_distributivite,validé,fr,calcul_litteral.csv
+LIT4E013,4e,calcul_litteral,reduction,calcul,QCM,2,40,Réduire : $7x - 4x + x$,$4x$,$8x$|$2x$|$12x$,,flash;litteral;reduction_signe,validé,fr,calcul_litteral.csv
+LIT4E014,4e,calcul_litteral,substitution,calcul,QCM,2,50,"Si $x = -2$, calculer $x^2 + 3x - 1$",$-3$,$9$|$1$|$-7$,,flash;litteral;substitution_complexe,validé,fr,calcul_litteral.csv
+LIT4E015,4e,calcul_litteral,equations,resolution,QCM,3,90,Résoudre : $4x - 7 = 2x + 1$,$x = 4$,$x = 2$|$x = -4$|$x = 8$,,flash;litteral;equation_inconnue_deux_membres,validé,fr,calcul_litteral.csv
+LIT4E016,4e,calcul_litteral,reduction,calcul,QCM,3,60,Réduire : $5x^2 + 2x - 3x^2 - 4x$,$2x^2 - 2x$,$2x^2 + 6x$|$8x^2 - 2x$|$2x^2 + 2x$,,flash;litteral;reduction_complexe,validé,fr,calcul_litteral.csv
+LIT4E017,4e,calcul_litteral,reduction,calcul,QCM,3,50,Réduire : $3(x + 2) - 2(x - 1)$,$x + 8$,$x + 4$|$5x + 4$|$x - 4$,,flash;litteral;reduction_parentheses,validé,fr,calcul_litteral.csv
+LIT4E018,4e,calcul_litteral,reduction,calcul,QCM,2,40,Réduire : $8a - 3a + a$,$6a$,$12a$|$4a$|$11a$,,flash;litteral;reduction_simple,validé,fr,calcul_litteral.csv
+LIT4E019,4e,calcul_litteral,developpement,calcul,QCM,3,55,Développer et réduire : $2(x - 1) + 3(x + 2)$,$5x + 4$,$5x - 4$|$5x + 1$|$6x + 4$,,flash;litteral;developpement_reduction,validé,fr,calcul_litteral.csv
+LIT4E020,4e,calcul_litteral,equations,resolution,QCM,2,75,Résoudre : $5x = 20$,$x = 4$,$x = 5$|$x = 25$|$x = 100$,,flash;litteral;equation_produit,validé,fr,calcul_litteral.csv
+NR4E001,4e,nombres_relatifs,addition_soustraction,calcul_simple,QCM,1,30,Calculer : (+7) + (+3),10,13|4|-10,,flash;nombres_relatifs;addition_positifs,validé,fr,nombres_relatifs_add_sous.csv
+NR4E002,4e,nombres_relatifs,addition_soustraction,calcul_simple,QCM,1,30,Calculer : (-5) + (-8),-13,13|-3|3,,flash;nombres_relatifs;addition_negatifs,validé,fr,nombres_relatifs_add_sous.csv
+NR4E003,4e,nombres_relatifs,addition_soustraction,calcul_simple,QCM,1,30,Calculer : (+9) + (-4),5,13|-5|-13,,flash;nombres_relatifs;addition_signes_opposes,validé,fr,nombres_relatifs_add_sous.csv
+NR4E004,4e,nombres_relatifs,addition_soustraction,calcul_simple,QCM,1,30,Calculer : (-12) + (+7),-5,5|19|-19,,flash;nombres_relatifs;addition_signes_opposes,validé,fr,nombres_relatifs_add_sous.csv
+NR4E005,4e,nombres_relatifs,addition_soustraction,soustraction,QCM,2,45,Calculer : (+6) - (+10),-4,4|16|-16,,flash;nombres_relatifs;soustraction_positifs,validé,fr,nombres_relatifs_add_sous.csv
+NR4E006,4e,nombres_relatifs,addition_soustraction,soustraction,QCM,2,45,Calculer : (-8) - (-3),-5,5|11|-11,,flash;nombres_relatifs;soustraction_negatifs,validé,fr,nombres_relatifs_add_sous.csv
+NR4E007,4e,nombres_relatifs,addition_soustraction,soustraction,QCM,2,45,Calculer : (+15) - (-7),22,8|-8|-22,,flash;nombres_relatifs;soustraction_oppose,validé,fr,nombres_relatifs_add_sous.csv
+NR4E008,4e,nombres_relatifs,addition_soustraction,soustraction,QCM,2,45,Calculer : (-9) - (+12),-21,21|3|-3,,flash;nombres_relatifs;soustraction_mixte,validé,fr,nombres_relatifs_add_sous.csv
+NR4E009,4e,nombres_relatifs,addition_soustraction,expression,QCM,2,60,Calculer : 5 - 8 + 3,0,10|-10|16,,flash;nombres_relatifs;expression_simple,validé,fr,nombres_relatifs_add_sous.csv
+NR4E010,4e,nombres_relatifs,addition_soustraction,expression,QCM,2,60,Calculer : -7 + 12 - 6,-1,1|11|-11,,flash;nombres_relatifs;expression_mixte,validé,fr,nombres_relatifs_add_sous.csv
+NR4E011,4e,nombres_relatifs,addition_soustraction,parentheses,QCM,2,60,Calculer : 8 - (3 + 5),0,10|16|-8,,flash;nombres_relatifs;parentheses_addition,validé,fr,nombres_relatifs_add_sous.csv
+NR4E012,4e,nombres_relatifs,addition_soustraction,parentheses,QCM,2,60,Calculer : -4 - (7 - 12),1,-1|11|-11,,flash;nombres_relatifs;parentheses_soustraction,validé,fr,nombres_relatifs_add_sous.csv
+NR4E013,4e,nombres_relatifs,addition_soustraction,decimaux,QCM,2,45,"Calculer : (+3,5) + (-1,8)","1,7","5,3|-1,7|-5,3",,flash;nombres_relatifs;decimaux_addition,validé,fr,nombres_relatifs_add_sous.csv
+NR4E014,4e,nombres_relatifs,addition_soustraction,decimaux,QCM,2,45,"Calculer : (-2,6) - (+4,1)","-6,7","6,7|1,5|-1,5",,flash;nombres_relatifs;decimaux_soustraction,validé,fr,nombres_relatifs_add_sous.csv
+NR4E015,4e,nombres_relatifs,addition_soustraction,expression_longue,QCM,3,90,Calculer : 12 - 8 + 5 - 9,0,10|-10|4,,flash;nombres_relatifs;expression_longue,validé,fr,nombres_relatifs_add_sous.csv
+NR4E016,4e,nombres_relatifs,addition_soustraction,expression_longue,QCM,3,90,Calculer : -6 + 15 - 7 + 2,4,-4|14|-14,,flash;nombres_relatifs;expression_longue_mixte,validé,fr,nombres_relatifs_add_sous.csv
+NR4E017,4e,nombres_relatifs,addition_soustraction,parentheses_complexes,QCM,3,90,Calculer : 10 - (3 - 8) + 5,20,0|8|-8,,flash;nombres_relatifs;parentheses_complexes,validé,fr,nombres_relatifs_add_sous.csv
+NR4E018,4e,nombres_relatifs,addition_soustraction,parentheses_complexes,QCM,3,90,Calculer : -(5 + 7) - (12 - 9),-15,15|9|-9,,flash;nombres_relatifs;double_parentheses,validé,fr,nombres_relatifs_add_sous.csv
+NR4E019,4e,nombres_relatifs,addition_soustraction,fractions,QCM,3,90,Calculer : (+\frac{1}{2}) + (\frac{-3}{4}),\frac{-1}{4},\frac{1}{4}|\frac{5}{4}|\frac{-5}{4},,flash;nombres_relatifs;fractions_addition,validé,fr,nombres_relatifs_add_sous.csv
+NR4E020,4e,nombres_relatifs,addition_soustraction,fractions,QCM,3,90,Calculer : (\frac{-2}{3}) - (+\frac{1}{6}),\frac{-5}{6},\frac{5}{6}|\frac{-1}{2}|\frac{1}{2},,flash;nombres_relatifs;fractions_soustraction,validé,fr,nombres_relatifs_add_sous.csv
+NRD4E001,4e,nombres_relatifs,division,regles_signes,QCM,1,30,Calculer : (+12) ÷ (+3),4,-4|15|-15,,flash;nombres_relatifs;division_positifs,validé,fr,nombres_relatifs_div.csv
+NRD4E002,4e,nombres_relatifs,division,regles_signes,QCM,1,30,Calculer : (-20) ÷ (-4),5,-5|16|-16,,flash;nombres_relatifs;division_negatifs,validé,fr,nombres_relatifs_div.csv
+NRD4E003,4e,nombres_relatifs,division,regles_signes,QCM,1,30,Calculer : (+18) ÷ (-6),-3,3|12|-12,,flash;nombres_relatifs;division_signes_opposes,validé,fr,nombres_relatifs_div.csv
+NRD4E004,4e,nombres_relatifs,division,regles_signes,QCM,1,30,Calculer : (-35) ÷ (+7),-5,5|28|-28,,flash;nombres_relatifs;division_signes_opposes,validé,fr,nombres_relatifs_div.csv
+NRD4E005,4e,nombres_relatifs,division,decimaux,QCM,2,45,"Calculer : (+7,2) ÷ (-1,8)",-4,"4|5,4|-5,4",,flash;nombres_relatifs;division_decimaux,validé,fr,nombres_relatifs_div.csv
+NRD4E006,4e,nombres_relatifs,division,decimaux,QCM,2,45,"Calculer : (-15,6) ÷ (+3,9)",-4,"4|11,7|-11,7",,flash;nombres_relatifs;division_decimaux,validé,fr,nombres_relatifs_div.csv
+NRD4E007,4e,nombres_relatifs,division,decimaux,QCM,2,45,"Calculer : (-8,4) ÷ (-2,1)",4,"-4|6,3|-6,3",,flash;nombres_relatifs;division_decimaux,validé,fr,nombres_relatifs_div.csv
+NRD4E008,4e,nombres_relatifs,division,fractions,QCM,2,60,Calculer : (+6) ÷ (\frac{-2}{3}),-9,9|4|-4,,flash;nombres_relatifs;division_par_fraction,validé,fr,nombres_relatifs_div.csv
+NRD4E009,4e,nombres_relatifs,division,fractions,QCM,2,60,Calculer : (\frac{-4}{5}) ÷ (+2),\frac{-2}{5},\frac{2}{5}|\frac{3}{5}|\frac{-3}{5},,flash;nombres_relatifs;division_fraction_entier,validé,fr,nombres_relatifs_div.csv
+NRD4E010,4e,nombres_relatifs,division,fractions,QCM,3,75,Calculer : (\frac{-2}{3}) ÷ (+\frac{4}{9}),\frac{-3}{2},\frac{3}{2}|\frac{5}{6}|\frac{-5}{6},,flash;nombres_relatifs;division_fractions,validé,fr,nombres_relatifs_div.csv
+NRD4E011,4e,nombres_relatifs,division,fractions,QCM,3,75,Calculer : (+\frac{3}{4}) ÷ (\frac{-6}{8}),1,-1|\frac{9}{8}|\frac{-9}{8},,flash;nombres_relatifs;division_fractions_simplifiees,validé,fr,nombres_relatifs_div.csv
+NRD4E012,4e,nombres_relatifs,division,quotient_exact,QCM,2,45,Calculer : (-48) ÷ (+16),-3,3|32|-32,,flash;nombres_relatifs;division_exacte,validé,fr,nombres_relatifs_div.csv
+NRD4E013,4e,nombres_relatifs,division,quotient_decimal,QCM,2,60,Calculer : (+15) ÷ (-8),"-1,875","1,875|7|-7",,flash;nombres_relatifs;division_decimale,validé,fr,nombres_relatifs_div.csv
+NRD4E014,4e,nombres_relatifs,division,quotient_decimal,QCM,2,60,Calculer : (-22) ÷ (+5),"-4,4","4,4|17|-17",,flash;nombres_relatifs;division_decimale,validé,fr,nombres_relatifs_div.csv
+NRD4E015,4e,nombres_relatifs,division,puissances,QCM,2,45,Calculer : (-8) ÷ (-2)³,1,-1|10|-10,,flash;nombres_relatifs;division_puissance,validé,fr,nombres_relatifs_div.csv
+NRD4E016,4e,nombres_relatifs,division,puissances,QCM,2,45,Calculer : (+27) ÷ (-3)²,3,-3|24|-24,,flash;nombres_relatifs;division_puissance,validé,fr,nombres_relatifs_div.csv
+NRD4E017,4e,nombres_relatifs,division,zero,QCM,1,30,Calculer : 0 ÷ (-7),0,7|-7|Impossible,,flash;nombres_relatifs;zero_divise,validé,fr,nombres_relatifs_div.csv
+NRD4E018,4e,nombres_relatifs,division,zero,QCM,1,30,Que vaut (-5) ÷ 0 ?,Impossible,0|5|-5,,flash;nombres_relatifs;division_par_zero,validé,fr,nombres_relatifs_div.csv
+NRD4E019,4e,nombres_relatifs,division,inverse,QCM,3,60,L'inverse de \frac{-4}{3} est :,\frac{3}{4},\frac{-3}{4}|\frac{4}{3}|\frac{-4}{3},,flash;nombres_relatifs;inverse,validé,fr,nombres_relatifs_div.csv
+NRD4E020,4e,nombres_relatifs,division,inverse,QCM,3,60,"L'inverse de -0,25 est :",4,"-4|0,75|-0,75",,flash;nombres_relatifs;inverse_decimal,validé,fr,nombres_relatifs_div.csv
+NRE4E001,4e,nombres_relatifs,enchainement,priorites_simples,QCM,2,60,Calculer : 3 + 5 × (-2),7,-7|13|-13,,flash;nombres_relatifs;priorites_multiplication,validé,fr,nombres_relatifs_ench.csv
+NRE4E002,4e,nombres_relatifs,enchainement,priorites_simples,QCM,2,60,Calculer : (-4) × 2 + 8,0,16|-16|12,,flash;nombres_relatifs;priorites_addition,validé,fr,nombres_relatifs_ench.csv
+NRE4E003,4e,nombres_relatifs,enchainement,priorites_simples,QCM,2,60,Calculer : 12 ÷ (-3) + 5,1,-1|9|-9,,flash;nombres_relatifs;priorites_division,validé,fr,nombres_relatifs_ench.csv
+NRE4E004,4e,nombres_relatifs,enchainement,priorites_simples,QCM,2,60,Calculer : 7 - (-2) × 3,13,-13|1|-1,,flash;nombres_relatifs;priorites_soustraction,validé,fr,nombres_relatifs_ench.csv
+NRE4E005,4e,nombres_relatifs,enchainement,parentheses,QCM,2,75,Calculer : (5 - 8) × (-3),9,-9|21|-21,,flash;nombres_relatifs;parentheses_prioritaires,validé,fr,nombres_relatifs_ench.csv
+NRE4E006,4e,nombres_relatifs,enchainement,parentheses,QCM,2,75,Calculer : (-6 + 2) ÷ (-2),2,-2|4|-4,,flash;nombres_relatifs;parentheses_division,validé,fr,nombres_relatifs_ench.csv
+NRE4E007,4e,nombres_relatifs,enchainement,parentheses,QCM,3,90,Calculer : 4 × (7 - 12) + 6,-14,14|26|-26,,flash;nombres_relatifs;parentheses_mixtes,validé,fr,nombres_relatifs_ench.csv
+NRE4E008,4e,nombres_relatifs,enchainement,parentheses,QCM,3,90,Calculer : (9 - 15) ÷ 2 - 4,-7,7|1|-1,,flash;nombres_relatifs;parentheses_complexes,validé,fr,nombres_relatifs_ench.csv
+NRE4E009,4e,nombres_relatifs,enchainement,double_parentheses,QCM,3,120,Calculer : (3 - 7) × (5 + 2),-28,28|12|-12,,flash;nombres_relatifs;double_parentheses,validé,fr,nombres_relatifs_ench.csv
+NRE4E010,4e,nombres_relatifs,enchainement,double_parentheses,QCM,3,120,Calculer : (8 - 12) ÷ (6 - 8),2,-2|4|-4,,flash;nombres_relatifs;double_parentheses_division,validé,fr,nombres_relatifs_ench.csv
+NRE4E011,4e,nombres_relatifs,enchainement,puissances,QCM,3,90,Calculer : (-3)² - 4 × 2,1,-1|17|-17,,flash;nombres_relatifs;puissances_priorites,validé,fr,nombres_relatifs_ench.csv
+NRE4E012,4e,nombres_relatifs,enchainement,puissances,QCM,3,90,Calculer : 5 + (-2)³ × 3,-19,19|11|-11,,flash;nombres_relatifs;puissances_multiplication,validé,fr,nombres_relatifs_ench.csv
+NRE4E013,4e,nombres_relatifs,enchainement,fractions,QCM,3,120,Calculer : \frac{1}{2} + 3 × (\frac{-1}{4}),\frac{8}{4},\frac{1}{4}|\frac{-1}{4}|\frac{5}{4},,flash;nombres_relatifs;fractions_priorites,validé,fr,nombres_relatifs_ench.csv
+NRE4E014,4e,nombres_relatifs,enchainement,fractions,QCM,3,120,Calculer : (\frac{-2}{3}) × 6 + \frac{1}{2},\frac{-7}{2},\frac{7}{2}|\frac{5}{2}|\frac{-5}{2},,flash;nombres_relatifs;fractions_mixtes,validé,fr,nombres_relatifs_ench.csv
+NRE4E015,4e,nombres_relatifs,enchainement,distributivite,QCM,3,120,Calculer : -2 × (3 - 7) + 5,13,-13|3|-3,,flash;nombres_relatifs;distributivite_enchainement,validé,fr,nombres_relatifs_ench.csv
+NRE4E016,4e,nombres_relatifs,enchainement,distributivite,QCM,3,120,Calculer : 4 × (-5 + 8) - 6,6,-6|18|-18,,flash;nombres_relatifs;distributivite_soustraction,validé,fr,nombres_relatifs_ench.csv
+NRE4E017,4e,nombres_relatifs,enchainement,complexe,QCM,4,150,Calculer : 8 - 3 × (2 - 6) ÷ (-2),2,-2|14|-14,,flash;nombres_relatifs;expression_complexe,validé,fr,nombres_relatifs_ench.csv
+NRE4E018,4e,nombres_relatifs,enchainement,complexe,QCM,4,150,Calculer : (-5 + 3)² - 4 × (-2),-12,12|0|8,,flash;nombres_relatifs;carre_enchainement,validé,fr,nombres_relatifs_ench.csv
+NRE4E019,4e,nombres_relatifs,enchainement,tres_complexe,QCM,4,180,Calculer : -3 × [(4 - 7) × 2] + 5,23,-23|13|-13,,flash;nombres_relatifs;crochets,validé,fr,nombres_relatifs_ench.csv
+NRE4E020,4e,nombres_relatifs,enchainement,tres_complexe,QCM,4,180,Calculer : 6 ÷ (-2) + [5 × (-1 + 4)],12,-12|18|-18,,flash;nombres_relatifs;crochets_division,validé,fr,nombres_relatifs_ench.csv
+NRM4E001,4e,nombres_relatifs,multiplication,regles_signes,QCM,1,30,Calculer : (+5) × (+3),15,-15|8|-8,,flash;nombres_relatifs;multiplication_positifs,validé,fr,nombres_relatifs_mult.csv
+NRM4E002,4e,nombres_relatifs,multiplication,regles_signes,QCM,1,30,Calculer : (-7) × (-4),28,-28|11|-11,,flash;nombres_relatifs;multiplication_negatifs,validé,fr,nombres_relatifs_mult.csv
+NRM4E003,4e,nombres_relatifs,multiplication,regles_signes,QCM,1,30,Calculer : (+6) × (-8),-48,48|14|-14,,flash;nombres_relatifs;multiplication_signes_opposes,validé,fr,nombres_relatifs_mult.csv
+NRM4E004,4e,nombres_relatifs,multiplication,regles_signes,QCM,1,30,Calculer : (-9) × (+5),-45,45|14|-14,,flash;nombres_relatifs;multiplication_signes_opposes,validé,fr,nombres_relatifs_mult.csv
+NRM4E005,4e,nombres_relatifs,multiplication,zero,QCM,1,20,Calculer : (-12) × 0,0,12|-12|1,,flash;nombres_relatifs;multiplication_zero,validé,fr,nombres_relatifs_mult.csv
+NRM4E006,4e,nombres_relatifs,multiplication,un,QCM,1,20,Calculer : (+7) × (-1),-7,7|8|-8,,flash;nombres_relatifs;multiplication_moins_un,validé,fr,nombres_relatifs_mult.csv
+NRM4E007,4e,nombres_relatifs,multiplication,decimaux,QCM,2,45,"Calculer : (-2,5) × (+4)",-10,"10|6,5|-6,5",,flash;nombres_relatifs;multiplication_decimaux,validé,fr,nombres_relatifs_mult.csv
+NRM4E008,4e,nombres_relatifs,multiplication,decimaux,QCM,2,45,"Calculer : (+1,8) × (-3)","-5,4","5,4|4,8|-4,8",,flash;nombres_relatifs;multiplication_decimaux,validé,fr,nombres_relatifs_mult.csv
+NRM4E009,4e,nombres_relatifs,multiplication,produits_multiples,QCM,2,60,Calculer : (-2) × (+3) × (-5),30,-30|10|-10,,flash;nombres_relatifs;produit_trois_facteurs,validé,fr,nombres_relatifs_mult.csv
+NRM4E010,4e,nombres_relatifs,multiplication,produits_multiples,QCM,2,60,Calculer : (+4) × (-1) × (-6),24,-24|11|-11,,flash;nombres_relatifs;produit_trois_facteurs,validé,fr,nombres_relatifs_mult.csv
+NRM4E011,4e,nombres_relatifs,multiplication,produits_multiples,QCM,3,75,Calculer : (-1) × (-2) × (-3) × (-4),24,-24|10|-10,,flash;nombres_relatifs;produit_quatre_facteurs,validé,fr,nombres_relatifs_mult.csv
+NRM4E012,4e,nombres_relatifs,multiplication,fractions,QCM,2,60,Calculer : (\frac{-1}{2}) × (+4),-2,"2|3,5|-3,5",,flash;nombres_relatifs;multiplication_fractions,validé,fr,nombres_relatifs_mult.csv
+NRM4E013,4e,nombres_relatifs,multiplication,fractions,QCM,2,60,Calculer : (+\frac{2}{3}) × (-9),-6,6|7|-7,,flash;nombres_relatifs;multiplication_fractions,validé,fr,nombres_relatifs_mult.csv
+NRM4E014,4e,nombres_relatifs,multiplication,fractions,QCM,3,75,Calculer : (\frac{-3}{4}) × (+\frac{8}{9}),\frac{-2}{3},\frac{2}{3}|\frac{5}{6}|\frac{-5}{6},,flash;nombres_relatifs;multiplication_fractions_complexes,validé,fr,nombres_relatifs_mult.csv
+NRM4E015,4e,nombres_relatifs,multiplication,carres,QCM,2,45,Calculer : (-5)²,25,-25|10|-10,,flash;nombres_relatifs;carre_negatif,validé,fr,nombres_relatifs_mult.csv
+NRM4E016,4e,nombres_relatifs,multiplication,carres,QCM,2,45,Calculer : -(6²),-36,36|12|-12,,flash;nombres_relatifs;oppose_carre,validé,fr,nombres_relatifs_mult.csv
+NRM4E017,4e,nombres_relatifs,multiplication,puissances,QCM,3,60,Calculer : (-2)³,-8,8|6|-6,,flash;nombres_relatifs;puissance_cube,validé,fr,nombres_relatifs_mult.csv
+NRM4E018,4e,nombres_relatifs,multiplication,puissances,QCM,3,60,Calculer : (-3)⁴,81,-81|12|-12,,flash;nombres_relatifs;puissance_quatrieme,validé,fr,nombres_relatifs_mult.csv
+NRM4E019,4e,nombres_relatifs,multiplication,distributivite,QCM,3,90,Calculer : (-5) × (3 - 7),20,-20|40|-40,,flash;nombres_relatifs;distributivite_simple,validé,fr,nombres_relatifs_mult.csv
+NRM4E020,4e,nombres_relatifs,multiplication,distributivite,QCM,3,90,Calculer : (+2) × (-4 + 9),10,-10|6|-6,,flash;nombres_relatifs;distributivite_simple,validé,fr,nombres_relatifs_mult.csv
+PY4E001,4e,pythagore,theoreme_direct,calcul,QCM,1,30,"Dans un triangle rectangle, les côtés de l'angle droit mesurent 3 cm et 4 cm. Quelle est la longueur de l'hypoténuse ?",5 cm,6 cm|7 cm|25 cm,,flash;pythagore;calcul_hypotenuse,validé,fr,pythagore.csv
+PY4E002,4e,pythagore,theoreme_direct,calcul,QCM,1,30,Triangle rectangle : côtés de l'angle droit 5 cm et 12 cm. L'hypoténuse mesure :,13 cm,17 cm|7 cm|119 cm,,flash;pythagore;calcul_hypotenuse,validé,fr,pythagore.csv
+PY4E003,4e,pythagore,theoreme_direct,calcul,QCM,2,45,"Triangle ABC rectangle en C, AB = 10 cm et AC = 6 cm. Calculer BC.",8 cm,4 cm|16 cm|136 cm,,flash;pythagore;calcul_cote,validé,fr,pythagore.csv
+PY4E004,4e,pythagore,theoreme_direct,calcul,QCM,2,45,"Triangle DEF rectangle en E : DF = 15 cm, DE = 9 cm. Calculer EF.",12 cm,6 cm|24 cm|225 cm,,flash;pythagore;calcul_cote,validé,fr,pythagore.csv
+PY4E005,4e,pythagore,verification,raisonnement,QCM,2,60,"Un triangle de côtés 8 cm, 15 cm et 17 cm est-il rectangle ?",Oui,Non|On ne peut pas savoir|Il manque une donnée,,flash;pythagore;reciproque,validé,fr,pythagore.csv
+PY4E006,4e,pythagore,verification,raisonnement,QCM,2,60,"Les côtés 5 cm, 7 cm et 9 cm forment-ils un triangle rectangle ?",Non,Oui|On ne peut pas savoir|Il faut mesurer les angles,,flash;pythagore;reciproque,validé,fr,pythagore.csv
+PY4E007,4e,pythagore,theoreme_direct,calcul,QCM,1,30,Triangle rectangle : côtés de l'angle droit 9 cm et 12 cm. L'hypoténuse = ?,15 cm,21 cm|3 cm|225 cm,,flash;pythagore;calcul_hypotenuse,validé,fr,pythagore.csv
+PY4E008,4e,pythagore,theoreme_direct,calcul,QCM,2,45,"Triangle rectangle : hypoténuse 25 cm, un côté 7 cm. L'autre côté = ?",24 cm,18 cm|32 cm|576 cm,,flash;pythagore;calcul_cote,validé,fr,pythagore.csv
+PY4E009,4e,pythagore,theoreme_direct,calcul,QCM,1,30,Triangle rectangle : côtés de l'angle droit 7 et 24. Hypoténuse = ?,25,31|17|625,,flash;pythagore;calcul_hypotenuse,validé,fr,pythagore.csv
+PY4E010,4e,pythagore,theoreme_direct,calcul,QCM,2,45,"Triangle ABC rectangle en B : AC = 13, AB = 5. Calculer BC.",12,8|18|144,,flash;pythagore;calcul_cote,validé,fr,pythagore.csv
+PY4E011,4e,pythagore,verification,raisonnement,QCM,2,60,"Triangle de côtés 9, 12 et 15 : est-il rectangle ?",Oui,Non|Presque|On ne peut pas dire,,flash;pythagore;reciproque,validé,fr,pythagore.csv
+PY4E012,4e,pythagore,verification,raisonnement,QCM,2,60,"Triangle de côtés 6, 8 et 10 : est-il rectangle ?",Oui,Non|Presque rectangle|Il manque des données,,flash;pythagore;reciproque,validé,fr,pythagore.csv
+PY4E013,4e,pythagore,theoreme_direct,calcul,QCM,1,30,Triangle rectangle : côtés de l'angle droit 6 cm et 8 cm. L'hypoténuse = ?,10 cm,14 cm|2 cm|100 cm,,flash;pythagore;calcul_hypotenuse,validé,fr,pythagore.csv
+PY4E014,4e,pythagore,theoreme_direct,calcul,QCM,2,45,"Triangle rectangle : hypoténuse 17 cm, un côté 8 cm. L'autre côté = ?",15 cm,9 cm|25 cm|225 cm,,flash;pythagore;calcul_cote,validé,fr,pythagore.csv
+PY4E015,4e,pythagore,verification,raisonnement,QCM,2,60,"Triangle de côtés 7, 24 et 25 : est-il rectangle ?",Oui,Non|On ne peut pas dire|Il faut calculer,,flash;pythagore;reciproque,validé,fr,pythagore.csv
+PY4E016,4e,pythagore,theoreme_direct,calcul,QCM,2,60,"Triangle rectangle : côtés de l'angle droit 1,5 et 2. Hypoténuse = ?","2,5","3,5|0,5|6,25",,flash;pythagore;calcul_hypotenuse,validé,fr,pythagore.csv
+PY4E017,4e,pythagore,verification,raisonnement,QCM,2,60,"Triangle de côtés 5, 12 et 13 : est-il rectangle ?",Oui,Non|Presque|On ne peut pas dire,,flash;pythagore;reciproque,validé,fr,pythagore.csv
+PY4E018,4e,pythagore,theoreme_direct,calcul,QCM,2,45,"Triangle MNP rectangle en N : MP = 20, MN = 12. Calculer NP.",16,8|32|256,,flash;pythagore;calcul_cote,validé,fr,pythagore.csv
+PY4E019,4e,pythagore,verification,raisonnement,QCM,2,60,"Triangle de côtés 10, 24 et 26 : est-il rectangle ?",Oui,Non|Presque|Il manque des données,,flash;pythagore;reciproque,validé,fr,pythagore.csv
+PY4E020,4e,pythagore,verification,raisonnement,QCM,2,60,"Triangle de côtés 4, 5 et 7 : est-il rectangle ?",Non,Oui|Presque rectangle|On ne peut pas dire,,flash;pythagore;reciproque,validé,fr,pythagore.csv
+ST4E001,4e,statistiques,moyenne,calcul,QCM,1,30,Calculer la moyenne de la série : 12 ; 8 ; 15 ; 9 ; 11,11.0,12|10|13,,flash;statistiques;moyenne,validé,fr,statistiques.csv
+ST4E002,4e,statistiques,mediane,calcul,QCM,1,30,Quelle est la médiane de la série : 7 ; 3 ; 9 ; 5 ; 6 ?,6.0,7|5|9,,flash;statistiques;mediane,validé,fr,statistiques.csv
+ST4E003,4e,statistiques,etendue,calcul,QCM,1,30,Calculer l'étendue de la série : 14 ; 7 ; 21 ; 5 ; 12,16.0,19|14|21,,flash;statistiques;etendue,validé,fr,statistiques.csv
+ST4E004,4e,statistiques,moyenne,recherche,QCM,2,45,La moyenne des notes suivantes est 13 : 11 ; 15 ; 12 ; x. Que vaut x ?,14.0,13|16|10,,flash;statistiques;moyenne_inverse,validé,fr,statistiques.csv
+ST4E005,4e,statistiques,mediane,lecture,QCM,1,30,Dans une série de 7 valeurs ordonnées 4;6;7;9;12;15;20 quelle est la médiane ?,9.0,7|12|6,,flash;statistiques;mediane_position,validé,fr,statistiques.csv
+ST4E006,4e,statistiques,moyenne,calcul,QCM,1,30,Calculer la moyenne de : 8 ; 12 ; 6 ; 14 ; 10,10.0,11|12|9,,flash;statistiques;moyenne,validé,fr,statistiques.csv
+ST4E007,4e,statistiques,etendue,calcul,QCM,1,30,L'étendue de la série 25;18;31;22;19 est :,13.0,12|14|15,,flash;statistiques;etendue,validé,fr,statistiques.csv
+ST4E008,4e,statistiques,mediane,calcul,QCM,2,45,Quelle est la médiane de 2;8;5;11;7;9 ?,7.5,8|7|6,,flash;statistiques;mediane_paire,validé,fr,statistiques.csv
+ST4E009,4e,statistiques,moyenne,evolution,QCM,2,45,Si on ajoute la valeur 16 à la série 10;12;14 quelle devient la nouvelle moyenne ?,13.0,12|14|11,,flash;statistiques;moyenne_ajout,validé,fr,statistiques.csv
+ST4E010,4e,statistiques,mediane,calcul,QCM,1,30,Dans la série 3;7;7;9;12;15 quelle est la médiane ?,8.0,7|9|7.5,,flash;statistiques;mediane_paire,validé,fr,statistiques.csv
+ST4E011,4e,statistiques,etendue,calcul,QCM,1,30,Calculer l'étendue de : 45 ; 32 ; 58 ; 41 ; 29,29.0,26|32|27,,flash;statistiques;etendue,validé,fr,statistiques.csv
+ST4E012,4e,statistiques,moyenne,calcul,QCM,1,30,La moyenne de 6;9;12;15 est :,10.5,11|9.5|12,,flash;statistiques;moyenne_decimale,validé,fr,statistiques.csv
+ST4E013,4e,statistiques,mediane,ordonnement,QCM,2,45,Ordonner puis donner la médiane de : 18 ; 12 ; 24 ; 15 ; 21,18.0,15|21|12,,flash;statistiques;mediane_desordonnee,validé,fr,statistiques.csv
+ST4E014,4e,statistiques,etendue,inverse,QCM,2,45,L'étendue d'une série est 17. Si la plus petite valeur est 8 que vaut la plus grande ?,25.0,24|23|26,,flash;statistiques;etendue_inverse,validé,fr,statistiques.csv
+ST4E015,4e,statistiques,moyenne,calcul,QCM,1,30,Calculer la moyenne de 20 ; 16 ; 24 ; 12 ; 28,20.0,19|21|18,,flash;statistiques;moyenne,validé,fr,statistiques.csv
+ST4E016,4e,statistiques,mediane,evolution,QCM,3,60,"Une série a pour médiane 11. On ajoute les valeurs 8 et 14, la nouvelle médiane est :",11.0,12|10|13,,flash;statistiques;mediane_ajout,validé,fr,statistiques.csv
+ST4E017,4e,statistiques,etendue,decimales,QCM,2,45,Quelle est l'étendue de la série : 2.5 ; 7.8 ; 4.2 ; 9.1 ; 3.6 ?,6.6,5.3|7.4|8.2,,flash;statistiques;etendue_decimale,validé,fr,statistiques.csv
+ST4E018,4e,statistiques,moyenne,somme,QCM,2,45,La moyenne de 5 notes est 14. Quelle est la somme de ces 5 notes ?,70.0,65|75|60,,flash;statistiques;moyenne_somme,validé,fr,statistiques.csv
+ST4E019,4e,statistiques,mediane,calcul,QCM,1,30,Dans la série 1;4;7;10;13;16 la médiane vaut :,8.5,7|10|9,,flash;statistiques;mediane_paire,validé,fr,statistiques.csv
+ST4E020,4e,statistiques,etendue,inverse,QCM,2,45,Si l'étendue est 12 et la plus grande valeur 27 que vaut la plus petite ?,15.0,14|16|13,,flash;statistiques;etendue_inverse,validé,fr,statistiques.csv
+LIT5E001,5e,calcul_litteral,substitution,calcul,QCM,1,30,"Si $x = 3$, calculer $x + 5$",$8$,$15$|$2$|$35$,,flash;litteral;substitution,validé,fr,calcul_litteral.csv
+LIT5E002,5e,calcul_litteral,substitution,calcul,QCM,1,30,"Si $a = 7$, calculer $2a$",$14$,$9$|$27$|$72$,,flash;litteral;substitution,validé,fr,calcul_litteral.csv
+LIT5E003,5e,calcul_litteral,substitution,calcul,QCM,2,45,"Si $x = 4$, calculer $3x - 1$",$11$,$7$|$34$|$12$,,flash;litteral;substitution,validé,fr,calcul_litteral.csv
+LIT5E004,5e,calcul_litteral,substitution,calcul,QCM,2,45,"Si $n = 5$, calculer $2n + 3$",$13$,$10$|$25$|$53$,,flash;litteral;substitution,validé,fr,calcul_litteral.csv
+LIT5E005,5e,calcul_litteral,expression,ecriture,QCM,1,25,Le double de $x$ s'écrit :,$2x$,$x + 2$|$x^2$|$2 + x$,,flash;litteral;langage,validé,fr,calcul_litteral.csv
+LIT5E006,5e,calcul_litteral,expression,ecriture,QCM,1,25,$x$ augmenté de 4 s'écrit :,$x + 4$,$4x$|$x - 4$|$4 - x$,,flash;litteral;langage,validé,fr,calcul_litteral.csv
+LIT5E007,5e,calcul_litteral,expression,ecriture,QCM,2,30,Le triple de $a$ diminué de 2 s'écrit :,$3a - 2$,$3a + 2$|$a - 2$|$3(a - 2)$,,flash;litteral;langage,validé,fr,calcul_litteral.csv
+LIT5E008,5e,calcul_litteral,substitution,calcul,QCM,2,40,"Si $x = 6$, calculer $x^2$",$36$,$12$|$66$|$6$,,flash;litteral;carre,validé,fr,calcul_litteral.csv
+LIT5E009,5e,calcul_litteral,substitution,calcul,QCM,3,50,"Si $a = 3$, calculer $a^2 + 2a$",$15$,$9$|$6$|$32$,,flash;litteral;substitution,validé,fr,calcul_litteral.csv
+LIT5E010,5e,calcul_litteral,developpement,calcul,QCM,2,35,Développer : $3(x + 2)$,$3x + 6$,$3x + 2$|$x + 6$|$3x + 32$,,flash;litteral;developpement,validé,fr,calcul_litteral.csv
+LIT5E011,5e,calcul_litteral,developpement,calcul,QCM,2,35,Développer : $5(a - 1)$,$5a - 5$,$5a - 1$|$a - 5$|$5a + 5$,,flash;litteral;developpement,validé,fr,calcul_litteral.csv
+LIT5E012,5e,calcul_litteral,developpement,calcul,QCM,2,40,Développer : $2(3x + 4)$,$6x + 8$,$6x + 4$|$3x + 8$|$5x + 6$,,flash;litteral;developpement,validé,fr,calcul_litteral.csv
+LIT5E013,5e,calcul_litteral,simplification,ecriture,QCM,1,20,Simplifier : $x \times x$,$x^2$,$2x$|$x + x$|$x$,,flash;litteral;produit,validé,fr,calcul_litteral.csv
+LIT5E014,5e,calcul_litteral,simplification,ecriture,QCM,1,25,Simplifier : $3 \times a \times 2$,$6a$,$3a2$|$5a$|$32a$,,flash;litteral;produit,validé,fr,calcul_litteral.csv
+LIT5E015,5e,calcul_litteral,substitution,calcul,QCM,2,40,"Si $x = 2$, calculer $5x - 3$",$7$,$13$|$2$|$52$,,flash;litteral;substitution,validé,fr,calcul_litteral.csv
+LIT5E016,5e,calcul_litteral,expression,ecriture,QCM,2,30,La somme du carré de $x$ et de 5 s'écrit :,$x^2 + 5$,$(x + 5)^2$|$x^2 \times 5$|$2x + 5$,,flash;litteral;langage,validé,fr,calcul_litteral.csv
+LIT5E017,5e,calcul_litteral,developpement,calcul,QCM,3,45,Développer : $x(x + 3)$,$x^2 + 3x$,$x^2 + 3$|$2x + 3$|$x + 3x$,,flash;litteral;developpement,validé,fr,calcul_litteral.csv
+LIT5E018,5e,calcul_litteral,substitution,calcul,QCM,3,60,"Si $a = 4$ et $b = 1$, calculer $2a + 3b$",$11$,$7$|$24$|$241$,,flash;litteral;deux_variables,validé,fr,calcul_litteral.csv
+LIT5E019,5e,calcul_litteral,reduction,ecriture,QCM,2,30,Réduire : $2x + 5x$,$7x$,$10x$|$7x^2$|$2x^5$,,flash;litteral;reduction,validé,fr,calcul_litteral.csv
+LIT5E020,5e,calcul_litteral,reduction,ecriture,QCM,2,35,Réduire : $3a + 2 + 4a$,$7a + 2$,$9a$|$3a + 6$|$7a^2 + 2$,,flash;litteral;reduction,validé,fr,calcul_litteral.csv
+ENC5E001,5e,nombres_relatifs,enchainements,calcul,QCM,1,25,Calculer : $(-5) + 8 - 3$,$0$,$6$|$-16$|$10$,,flash;relatifs;enchainement_simple,validé,fr,enchainements_relatifs.csv
+ENC5E002,5e,nombres_relatifs,enchainements,calcul,QCM,1,30,Calculer : $7 - 12 + 4 - 1$,$-2$,$2$|$-24$|$8$,,flash;relatifs;enchainement_simple,validé,fr,enchainements_relatifs.csv
+ENC5E003,5e,nombres_relatifs,enchainements,calcul,QCM,2,35,Calculer : $(-3) + 9 - 7 + 2$,$1$,$-1$|$21$|$-17$,,flash;relatifs;enchainement_simple,validé,fr,enchainements_relatifs.csv
+ENC5E004,5e,nombres_relatifs,enchainements,calcul,QCM,2,40,Calculer : $6 - 8 + 3 - 5 + 1$,$-3$,$3$|$-23$|$13$,,flash;relatifs;enchainement_moyen,validé,fr,enchainements_relatifs.csv
+ENC5E005,5e,nombres_relatifs,enchainements,calcul,QCM,1,30,Calculer : $(-4) + 6 - 2$,$0$,$-12$|$4$|$12$,,flash;relatifs;enchainement_simple,validé,fr,enchainements_relatifs.csv
+ENC5E006,5e,nombres_relatifs,enchainements,calcul,QCM,2,35,Calculer : $10 - 15 + 2 - 1 + 4$,$0$,$-10$|$32$|$10$,,flash;relatifs;enchainement_zero,validé,fr,enchainements_relatifs.csv
+ENC5E007,5e,nombres_relatifs,parentheses,calcul,QCM,2,40,Calculer : $-(+3) + (-7)$,$-10$,$10$|$4$|$-4$,,flash;relatifs;parentheses_simples,validé,fr,enchainements_relatifs.csv
+ENC5E008,5e,nombres_relatifs,parentheses,calcul,QCM,2,45,Calculer : $(-2) - (-5) + (-3)$,$0$,$-10$|$6$|$-6$,,flash;relatifs;parentheses_soustraction,validé,fr,enchainements_relatifs.csv
+ENC5E009,5e,nombres_relatifs,parentheses,calcul,QCM,2,45,Calculer : $8 - (-4) + (-6)$,$6$,$-6$|$18$|$-2$,,flash;relatifs;parentheses_melange,validé,fr,enchainements_relatifs.csv
+ENC5E010,5e,nombres_relatifs,parentheses,calcul,QCM,3,50,Calculer : $(-1) - (-8) - (+3)$,$4$,$-4$|$12$|$-12$,,flash;relatifs;parentheses_complexes,validé,fr,enchainements_relatifs.csv
+ENC5E011,5e,nombres_relatifs,parentheses,calcul,QCM,2,40,Calculer : $7 + (-9) - (-2)$,$0$,$-4$|$4$|$18$,,flash;relatifs;parentheses_zero,validé,fr,enchainements_relatifs.csv
+ENC5E012,5e,nombres_relatifs,parentheses,calcul,QCM,3,50,Calculer : $(-6) + (-2) - (-4) + (-1)$,$-5$,$5$|$-13$|$13$,,flash;relatifs;parentheses_multiples,validé,fr,enchainements_relatifs.csv
+ENC5E013,5e,nombres_relatifs,parentheses,calcul,QCM,2,45,Calculer : $5 - (+7) + (-3) - (-1)$,$-4$,$4$|$16$|$-16$,,flash;relatifs;parentheses_variees,validé,fr,enchainements_relatifs.csv
+ENC5E014,5e,nombres_relatifs,astuce,calcul,QCM,1,30,Calculer : $(-7) + 7 + 3$,$3$,$-7$|$17$|$-3$,,flash;relatifs;opposes_annulent,validé,fr,enchainements_relatifs.csv
+ENC5E015,5e,nombres_relatifs,astuce,calcul,QCM,2,35,Calculer : $(-5) + 8 + (-3) + 2$,$2$,$-2$|$18$|$-8$,,flash;relatifs;regroupement,validé,fr,enchainements_relatifs.csv
+ENC5E016,5e,nombres_relatifs,astuce,calcul,QCM,2,40,Calculer : $6 + (-4) + (-6) + 4$,$0$,$20$|$-20$|$10$,,flash;relatifs;regroupement_zero,validé,fr,enchainements_relatifs.csv
+ENC5E017,5e,nombres_relatifs,astuce,calcul,QCM,2,35,Calculer : $(-9) + 3 + 9 + (-1)$,$2$,$-2$|$22$|$-22$,,flash;relatifs;opposes_plus_autres,validé,fr,enchainements_relatifs.csv
+ENC5E018,5e,nombres_relatifs,astuce,calcul,QCM,1,25,Calculer : $12 + (-12) + 5$,$5$,$-5$|$29$|$-29$,,flash;relatifs;opposes_simples,validé,fr,enchainements_relatifs.csv
+ENC5E019,5e,nombres_relatifs,enchainements_longs,calcul,QCM,3,60,Calculer : $(-3) + 7 - 8 + 2 - 1 + 4$,$1$,$-1$|$17$|$-17$,,flash;relatifs;enchainement_long,validé,fr,enchainements_relatifs.csv
+ENC5E020,5e,nombres_relatifs,enchainements_longs,calcul,QCM,3,65,Calculer : $5 - 9 + 3 - 6 + 2 - 1 + 8$,$2$,$-2$|$34$|$-12$,,flash;relatifs;enchainement_tres_long,validé,fr,enchainements_relatifs.csv
+FR5EAS001,5e,fractions,addition_soustraction,denominateur_commun,QCM,1,40,Calculer : \frac{3}{8} + \frac{2}{8},\frac{5}{8},\frac{1}{8}|\frac{6}{8}|\frac{5}{16},,flash;fractions;add_same,validé,fr,fractions_add_sous.csv
+FR5EAS002,5e,fractions,addition_soustraction,denominateur_commun,QCM,1,40,Calculer : \frac{5}{7} - \frac{2}{7},\frac{3}{7},\frac{7}{5}|\frac{2}{5}|\frac{5}{9},,flash;fractions;sous_same,validé,fr,fractions_add_sous.csv
+FR5EAS003,5e,fractions,addition_soustraction,denominateurs_multiples,QCM,1,50,Calculer : \frac{1}{4} + \frac{1}{2},\frac{3}{4},\frac{2}{6}|\frac{2}{4}|\frac{1}{6},,flash;fractions;add_multiple,validé,fr,fractions_add_sous.csv
+FR5EAS004,5e,fractions,addition_soustraction,denominateurs_multiples,QCM,1,50,Calculer : \frac{3}{5} - \frac{1}{10},\frac{1}{2},\frac{2}{5}|\frac{1}{5}|\frac{4}{5},,flash;fractions;sous_multiple,validé,fr,fractions_add_sous.csv
+FR5EAS005,5e,fractions,addition_soustraction,denominateurs_differents,QCM,2,60,Calculer : \frac{2}{3} + \frac{1}{6},\frac{5}{6},\frac{3}{9}|\frac{3}{6}|\frac{7}{6},,flash;fractions;add_diff,validé,fr,fractions_add_sous.csv
+FR5EAS006,5e,fractions,addition_soustraction,denominateurs_differents,QCM,2,60,Calculer : \frac{5}{12} + \frac{1}{3},\frac{3}{4},\frac{6}{15}|\frac{2}{5}|\frac{5}{15},,flash;fractions;add_diff,validé,fr,fractions_add_sous.csv
+FR5EAS007,5e,fractions,addition_soustraction,denominateurs_differents,QCM,2,60,Calculer : \frac{7}{8} - \frac{1}{4},\frac{5}{8},\frac{6}{8}|\frac{3}{4}|\frac{7}{12},,flash;fractions;sous_diff,validé,fr,fractions_add_sous.csv
+FR5EAS008,5e,fractions,addition_soustraction,simplification_finale,QCM,2,70,Calculer et simplifier : \frac{2}{6} + \frac{1}{6},\frac{1}{2},\frac{3}{6}|\frac{2}{7}|\frac{1}{3},,flash;fractions;add_simplify,validé,fr,fractions_add_sous.csv
+FR5EAS009,5e,fractions,addition_soustraction,simplification_finale,QCM,2,70,Calculer et simplifier : \frac{3}{9} + \frac{2}{9},\frac{5}{9},\frac{5}{18}|\frac{1}{3}|\frac{7}{9},,flash;fractions;add_simplify,validé,fr,fractions_add_sous.csv
+FR5EAS010,5e,fractions,addition_soustraction,impropre,QCM,3,80,Calculer : \frac{7}{6} + \frac{5}{6},2,\frac{12}{6}|\frac{11}{6}|1 \frac{5}{6},,flash;fractions;add_improper,validé,fr,fractions_add_sous.csv
+FR5EAS011,5e,fractions,addition_soustraction,impropre,QCM,3,80,Calculer : \frac{9}{8} - \frac{5}{8},\frac{1}{2},\frac{3}{8}|\frac{4}{8}|\frac{2}{8},,flash;fractions;sous_improper,validé,fr,fractions_add_sous.csv
+FR5EAS012,5e,fractions,addition_soustraction,mixed_number,QCM,3,90,Calculer : 1 + \frac{3}{5},\frac{8}{5},\frac{4}{5}|\frac{6}{5}|\frac{5}{8},,flash;fractions;add_entier_fraction,validé,fr,fractions_add_sous.csv
+FR5EAS013,5e,fractions,addition_soustraction,mixed_number,QCM,3,90,Calculer : 2 - \frac{3}{4},\frac{5}{4},\frac{1}{4}|\frac{7}{4}|\frac{3}{4},,flash;fractions;sous_entier_fraction,validé,fr,fractions_add_sous.csv
+FR5EAS014,5e,fractions,addition_soustraction,expression,QCM,3,90,Calculer : \frac{1}{2} + \frac{1}{3} - \frac{1}{6},\frac{2}{3},\frac{1}{3}|\frac{5}{6}|\frac{3}{4},,flash;fractions;add_expression,validé,fr,fractions_add_sous.csv
+FR5EAS015,5e,fractions,addition_soustraction,piege,QCM,3,90,Calculer : \frac{1}{5} + \frac{2}{10},\frac{2}{5},\frac{3}{15}|\frac{3}{10}|\frac{1}{7},,flash;fractions;add_equivalent,validé,fr,fractions_add_sous.csv
+FR5EEN001,5e,fractions,enchaînements,parentheses_simple,QCM,2,70,Calculer : (\frac{1}{2} + \frac{1}{4}),\frac{3}{4},\frac{1}{3}|\frac{2}{4}|\frac{5}{8},,flash;fractions;par_simple,validé,fr,fractions_enchainements.csv
+FR5EEN002,5e,fractions,enchaînements,parentheses_simple,QCM,2,70,Calculer : (\frac{3}{5} - \frac{1}{10}),\frac{1}{2},\frac{2}{5}|\frac{3}{10}|\frac{4}{5},,flash;fractions;par_simple,validé,fr,fractions_enchainements.csv
+FR5EEN003,5e,fractions,enchaînements,double_operation,QCM,2,80,Calculer : \frac{1}{3} + \frac{1}{6} - \frac{1}{2},0,\frac{1}{6}|\frac{-1}{6}|\frac{1}{3},,flash;fractions;double_op,validé,fr,fractions_enchainements.csv
+FR5EEN004,5e,fractions,enchaînements,double_operation,QCM,2,80,Calculer : \frac{3}{4} - \frac{1}{8} + \frac{1}{2},\frac{9}{8},\frac{7}{8}|\frac{5}{8}|\frac{3}{8},,flash;fractions;double_op,validé,fr,fractions_enchainements.csv
+FR5EEN005,5e,fractions,enchaînements,multiplication_addition,QCM,3,90,Calculer : \frac{2}{3} + (\frac{1}{2} × \frac{3}{4}),\frac{11}{12},\frac{5}{6}|\frac{1}{3}|\frac{7}{12},,flash;fractions;mixte_mult,validé,fr,fractions_enchainements.csv
+FR5EEN006,5e,fractions,enchaînements,multiplication_soustraction,QCM,3,90,Calculer : \frac{5}{6} - (\frac{1}{3} × \frac{1}{2}),\frac{2}{3},\frac{1}{2}|\frac{3}{6}|\frac{5}{9},,flash;fractions;mixte_mult,validé,fr,fractions_enchainements.csv
+FR5EEN007,5e,fractions,enchaînements,trois_termes,QCM,3,90,Calculer : \frac{1}{2} + \frac{1}{3} + \frac{1}{6},1,\frac{5}{6}|\frac{2}{3}|\frac{7}{6},,flash;fractions;trois_termes,validé,fr,fractions_enchainements.csv
+FR5EEN008,5e,fractions,enchaînements,parentheses_doubles,QCM,3,100,Calculer : (\frac{1}{2} + \frac{1}{4}) - (\frac{1}{8}),\frac{5}{8},\frac{3}{4}|\frac{1}{2}|\frac{7}{8},,flash;fractions;par_doubles,validé,fr,fractions_enchainements.csv
+FR5EEN009,5e,fractions,enchaînements,parentheses_doubles,QCM,3,100,Calculer : (\frac{3}{5} - \frac{1}{10}) + (\frac{1}{2}),1,\frac{3}{5}|\frac{4}{5}|\frac{9}{10},,flash;fractions;par_doubles,validé,fr,fractions_enchainements.csv
+FR5EEN010,5e,fractions,enchaînements,impropre_mixed,QCM,3,110,Calculer : \frac{7}{6} - \frac{1}{2} + \frac{1}{3},1,\frac{5}{6}|\frac{2}{3}|\frac{7}{6},,flash;fractions;impropre_mix,validé,fr,fractions_enchainements.csv
+FR5EEN011,5e,fractions,enchaînements,impropre_mixed,QCM,3,110,Calculer : \frac{5}{4} + \frac{3}{8} - \frac{1}{2},\frac{9}{8},\frac{7}{8}|\frac{5}{8}|\frac{11}{8},,flash;fractions;impropre_mix,validé,fr,fractions_enchainements.csv
+FR5EEN012,5e,fractions,enchaînements,expression_mult_pas,QCM,3,120,Calculer : \frac{2}{3} × (\frac{1}{2} + \frac{1}{4}),\frac{1}{2},\frac{5}{6}|\frac{2}{7}|\frac{3}{8},,flash;fractions;mult_parenth,validé,fr,fractions_enchainements.csv
+FR5EEN013,5e,fractions,enchaînements,expression_mult_pas,QCM,3,120,Calculer : (\frac{2}{5} + \frac{1}{10}) × \frac{1}{2},\frac{1}{4},\frac{3}{10}|\frac{1}{5}|\frac{2}{5},,flash;fractions;mult_parenth,validé,fr,fractions_enchainements.csv
+FR5EEN014,5e,fractions,enchaînements,piege_equivalence,QCM,3,120,Calculer : \frac{1}{4} + \frac{2}{8} - \frac{1}{2},0,\frac{1}{8}|\frac{1}{4}|\frac{-1}{4},,flash;fractions;piege_equiv,validé,fr,fractions_enchainements.csv
+FR5EEN015,5e,fractions,enchaînements,piege_zero,QCM,3,120,Calculer : (\frac{1}{3} - \frac{1}{3}) + \frac{5}{6},\frac{5}{6},0|\frac{1}{3}|\frac{2}{3},,flash;fractions;piege_zero,validé,fr,fractions_enchainements.csv
+FR5EMU001,5e,fractions,multiplication,produit_simple,QCM,1,40,Calculer : \frac{2}{3} × \frac{3}{4},\frac{1}{2},\frac{5}{7}|\frac{6}{12}|\frac{2}{7},,flash;fractions;mult_simple,validé,fr,fractions_multiplication.csv
+FR5EMU002,5e,fractions,multiplication,produit_simple,QCM,1,40,Calculer : \frac{1}{5} × \frac{3}{5},\frac{3}{25},\frac{4}{25}|\frac{3}{10}|\frac{1}{15},,flash;fractions;mult_simple,validé,fr,fractions_multiplication.csv
+FR5EMU003,5e,fractions,multiplication,produit_simple,QCM,1,40,Calculer : \frac{4}{7} × \frac{2}{7},\frac{8}{49},\frac{6}{49}|\frac{4}{14}|\frac{8}{14},,flash;fractions;mult_simple,validé,fr,fractions_multiplication.csv
+FR5EMU004,5e,fractions,multiplication,entier,QCM,1,40,Calculer : 5 × \frac{3}{8},\frac{15}{8},\frac{5}{8}|\frac{3}{40}|\frac{15}{24},,flash;fractions;mult_entier,validé,fr,fractions_multiplication.csv
+FR5EMU005,5e,fractions,multiplication,entier,QCM,1,40,Calculer : \frac{7}{9} × 6,\frac{42}{9},\frac{13}{9}|\frac{42}{15}|\frac{7}{54},,flash;fractions;mult_entier,validé,fr,fractions_multiplication.csv
+FR5EMU006,5e,fractions,multiplication,simplification_croisee,QCM,2,60,Calculer : \frac{6}{10} × \frac{5}{9} (simplifier le résultat),\frac{1}{3},\frac{11}{30}|\frac{30}{54}|\frac{5}{15},,flash;fractions;mult_simplify,validé,fr,fractions_multiplication.csv
+FR5EMU007,5e,fractions,multiplication,simplification_croisee,QCM,2,60,Calculer : \frac{8}{12} × \frac{3}{4} (simplifier),\frac{1}{2},\frac{24}{48}|\frac{2}{3}|\frac{3}{8},,flash;fractions;mult_simplify,validé,fr,fractions_multiplication.csv
+FR5EMU008,5e,fractions,multiplication,simplification_croisee,QCM,2,60,Calculer : \frac{9}{15} × \frac{10}{18} (simplifier),\frac{1}{3},\frac{19}{45}|\frac{3}{5}|\frac{5}{9},,flash;fractions;mult_simplify,validé,fr,fractions_multiplication.csv
+FR5EMU009,5e,fractions,multiplication,produit_impropre,QCM,2,70,Calculer : \frac{5}{4} × \frac{3}{2},\frac{15}{8},\frac{8}{15}|\frac{5}{8}|\frac{3}{4},,flash;fractions;mult_improper,validé,fr,fractions_multiplication.csv
+FR5EMU010,5e,fractions,multiplication,produit_impropre,QCM,2,70,Calculer : \frac{7}{6} × \frac{9}{7},\frac{3}{2},\frac{7}{54}|\frac{9}{13}|\frac{16}{7},,flash;fractions;mult_improper,validé,fr,fractions_multiplication.csv
+FR5EMU011,5e,fractions,multiplication,expression,QCM,3,80,Calculer : \frac{2}{3} × \frac{3}{5} × \frac{5}{6},\frac{1}{9},\frac{2}{9}|\frac{1}{6}|\frac{5}{18},,flash;fractions;mult_trois,validé,fr,fractions_multiplication.csv
+FR5EMU012,5e,fractions,multiplication,expression,QCM,3,80,Calculer : \frac{4}{5} × \frac{10}{16},\frac{1}{2},\frac{2}{5}|\frac{14}{80}|\frac{5}{8},,flash;fractions;mult_simplify,validé,fr,fractions_multiplication.csv
+FR5EMU013,5e,fractions,multiplication,piege_zero,QCM,3,60,Calculer : 0 × \frac{7}{13},0,\frac{7}{13}|\frac{7}{0}|\frac{13}{7},,flash;fractions;mult_zero,validé,fr,fractions_multiplication.csv
+FR5EMU014,5e,fractions,multiplication,piege_un,QCM,3,60,Calculer : 1 × \frac{11}{12},\frac{11}{12},\frac{1}{11}|\frac{12}{11}|\frac{11}{24},,flash;fractions;mult_un,validé,fr,fractions_multiplication.csv
+FR5EMU015,5e,fractions,multiplication,piege_equivalent,QCM,3,70,Calculer : \frac{2}{4} × \frac{4}{6} (simplifier),\frac{1}{3},\frac{2}{6}|\frac{8}{24}|\frac{4}{12},,flash;fractions;mult_equivalent,validé,fr,fractions_multiplication.csv
+FR5ESI001,5e,fractions,simplification,division_simple,QCM,1,40,Simplifier : \frac{4}{8},\frac{1}{2},\frac{2}{4}|\frac{4}{16}|\frac{2}{3},,flash;fractions;simplifier2,validé,fr,fractions_simplification.csv
+FR5ESI002,5e,fractions,simplification,division_simple,QCM,1,40,Simplifier : \frac{6}{12},\frac{1}{2},\frac{2}{6}|\frac{3}{4}|\frac{6}{24},,flash;fractions;simplifier2,validé,fr,fractions_simplification.csv
+FR5ESI003,5e,fractions,simplification,division_simple,QCM,1,40,Simplifier : \frac{9}{12},\frac{3}{4},\frac{6}{9}|\frac{9}{24}|\frac{2}{3},,flash;fractions;simplifier3,validé,fr,fractions_simplification.csv
+FR5ESI004,5e,fractions,simplification,division_simple,QCM,1,40,Simplifier : \frac{10}{15},\frac{2}{3},\frac{5}{10}|\frac{3}{5}|\frac{4}{6},,flash;fractions;simplifier5,validé,fr,fractions_simplification.csv
+FR5ESI005,5e,fractions,simplification,pgcd,QCM,2,50,Simplifier : \frac{18}{24},\frac{3}{4},\frac{6}{8}|\frac{9}{24}|\frac{2}{3},,flash;fractions;pgcd6,validé,fr,fractions_simplification.csv
+FR5ESI006,5e,fractions,simplification,pgcd,QCM,2,50,Simplifier : \frac{21}{28},\frac{3}{4},\frac{7}{9}|\frac{4}{7}|\frac{2}{3},,flash;fractions;pgcd7,validé,fr,fractions_simplification.csv
+FR5ESI007,5e,fractions,simplification,pgcd,QCM,2,50,Simplifier : \frac{14}{35},\frac{2}{5},\frac{4}{7}|\frac{7}{14}|\frac{5}{14},,flash;fractions;pgcd7,validé,fr,fractions_simplification.csv
+FR5ESI008,5e,fractions,simplification,pgcd,QCM,2,50,Simplifier : \frac{32}{40},\frac{4}{5},\frac{8}{10}|\frac{3}{5}|\frac{2}{5},,flash;fractions;pgcd8,validé,fr,fractions_simplification.csv
+FR5ESI009,5e,fractions,simplification,irreductible,QCM,2,50,Simplifier : \frac{7}{13},\frac{7}{13},\frac{1}{13}|\frac{13}{7}|\frac{7}{26},,flash;fractions;irreductible,validé,fr,fractions_simplification.csv
+FR5ESI010,5e,fractions,simplification,irreductible,QCM,2,50,Simplifier : \frac{11}{17},\frac{11}{17},\frac{1}{17}|\frac{17}{11}|\frac{11}{34},,flash;fractions;irreductible,validé,fr,fractions_simplification.csv
+FR5ESI011,5e,fractions,simplification,grande,QCM,3,70,Simplifier : \frac{45}{60},\frac{3}{4},\frac{9}{12}|\frac{15}{20}|\frac{4}{5},,flash;fractions;pgcd15,validé,fr,fractions_simplification.csv
+FR5ESI012,5e,fractions,simplification,grande,QCM,3,70,Simplifier : \frac{56}{72},\frac{7}{9},\frac{8}{9}|\frac{14}{18}|\frac{28}{36},,flash;fractions;pgcd8,validé,fr,fractions_simplification.csv
+FR5ESI013,5e,fractions,simplification,grande,QCM,3,70,Simplifier : \frac{63}{84},\frac{3}{4},\frac{9}{12}|\frac{7}{12}|\frac{6}{8},,flash;fractions;pgcd21,validé,fr,fractions_simplification.csv
+FR5ESI014,5e,fractions,simplification,piege_equivalent,QCM,3,70,Simplifier : \frac{8}{12},\frac{2}{3},\frac{4}{6}|\frac{6}{9}|\frac{8}{24},,flash;fractions;equivalent,validé,fr,fractions_simplification.csv
+FR5ESI015,5e,fractions,simplification,piege_irreductible,QCM,3,70,Simplifier : \frac{17}{19},\frac{17}{19},\frac{1}{19}|\frac{19}{17}|\frac{17}{38},,flash;fractions;irreductible,validé,fr,fractions_simplification.csv
+REL5E001,5e,nombres_relatifs,addition,calcul,QCM,1,20,Calculer : $(-7) + (+12)$,$5$,$-5$|$19$|$-19$,,flash;relatifs;addition,validé,fr,nombres_relatifs.csv
+REL5E002,5e,nombres_relatifs,addition,calcul,QCM,1,20,Calculer : $(+8) + (-3)$,$5$,$-5$|$11$|$-11$,,flash;relatifs;addition,validé,fr,nombres_relatifs.csv
+REL5E003,5e,nombres_relatifs,addition,calcul,QCM,1,25,Calculer : $(-4) + (-9)$,$-13$,$13$|$-5$|$5$,,flash;relatifs;addition,validé,fr,nombres_relatifs.csv
+REL5E004,5e,nombres_relatifs,soustraction,calcul,QCM,2,30,Calculer : $(+6) - (+10)$,$-4$,$4$|$16$|$-16$,,flash;relatifs;soustraction,validé,fr,nombres_relatifs.csv
+REL5E005,5e,nombres_relatifs,soustraction,calcul,QCM,2,30,Calculer : $(-5) - (+7)$,$-12$,$12$|$2$|$-2$,,flash;relatifs;soustraction,validé,fr,nombres_relatifs.csv
+REL5E006,5e,nombres_relatifs,soustraction,calcul,QCM,2,30,Calculer : $(+3) - (-8)$,$11$,$-11$|$-5$|$5$,,flash;relatifs;soustraction,validé,fr,nombres_relatifs.csv
+REL5E007,5e,nombres_relatifs,soustraction,calcul,QCM,2,35,Calculer : $(-9) - (-4)$,$-5$,$5$|$-13$|$13$,,flash;relatifs;soustraction,validé,fr,nombres_relatifs.csv
+REL5E008,5e,nombres_relatifs,addition,calcul,QCM,1,20,Calculer : $15 + (-8)$,$7$,$-7$|$23$|$-23$,,flash;relatifs;addition_simplifiee,validé,fr,nombres_relatifs.csv
+REL5E009,5e,nombres_relatifs,addition,calcul,QCM,1,20,Calculer : $-12 + 5$,$-7$,$7$|$-17$|$17$,,flash;relatifs;addition_simplifiee,validé,fr,nombres_relatifs.csv
+REL5E010,5e,nombres_relatifs,soustraction,calcul,QCM,2,30,Calculer : $4 - (-6)$,$10$,$-10$|$-2$|$2$,,flash;relatifs;soustraction_simplifiee,validé,fr,nombres_relatifs.csv
+REL5E011,5e,nombres_relatifs,operations_successives,calcul,QCM,2,45,Calculer : $(-3) + 7 + (-2)$,$2$,$-2$|$12$|$-12$,,flash;relatifs;operations_successives,validé,fr,nombres_relatifs.csv
+REL5E012,5e,nombres_relatifs,operations_successives,calcul,QCM,2,45,Calculer : $8 - 5 - 6$,$-3$,$3$|$-19$|$19$,,flash;relatifs;operations_successives,validé,fr,nombres_relatifs.csv
+REL5E013,5e,nombres_relatifs,operations_successives,calcul,QCM,3,60,Calculer : $-4 + 9 - 7 + 2$,$0$,$-18$|$18$|$22$,,flash;relatifs;operations_successives,validé,fr,nombres_relatifs.csv
+REL5E014,5e,nombres_relatifs,addition,calcul,QCM,1,25,Calculer : $(-6) + (+6)$,$0$,$12$|$-12$|$36$,,flash;relatifs;opposes,validé,fr,nombres_relatifs.csv
+REL5E015,5e,nombres_relatifs,comparaison,connaissance,QCM,2,30,Quel est le plus petit nombre ?,$-8$,$-3$|$0$|$5$,,flash;relatifs;comparaison,validé,fr,nombres_relatifs.csv
+REL5E016,5e,nombres_relatifs,addition,calcul,QCM,1,20,Calculer : $0 + (-11)$,$-11$,$11$|$0$|$-22$,,flash;relatifs;element_neutre,validé,fr,nombres_relatifs.csv
+REL5E017,5e,nombres_relatifs,soustraction,calcul,QCM,2,35,Calculer : $(-2) - (-2)$,$0$,$-4$|$4$|$-2$,,flash;relatifs;soustraction_meme,validé,fr,nombres_relatifs.csv
+REL5E018,5e,nombres_relatifs,operations_successives,calcul,QCM,3,50,Calculer : $-1 - 3 + 8 - 2$,$2$,$-2$|$14$|$-8$,,flash;relatifs;operations_successives,validé,fr,nombres_relatifs.csv
+REL5E019,5e,nombres_relatifs,addition,calcul,QCM,1,25,Calculer : $(-15) + (+9)$,$-6$,$6$|$-24$|$24$,,flash;relatifs;addition,validé,fr,nombres_relatifs.csv
+REL5E020,5e,nombres_relatifs,soustraction,calcul,QCM,2,40,Calculer : $7 - 12 + 3$,$-2$,$2$|$-22$|$22$,,flash;relatifs;operations_successives,validé,fr,nombres_relatifs.csv
+AR3E016,3e,arithmetique,decomposition,calcul,QCM,2,40,Décomposer 30 en produit de facteurs premiers.,2 × 3 × 5,2 × 15|3 × 10|5 × 6,,flash;arithmetique;decomposition,à valider,fr,arithmetique.csv
+AR3E017,3e,arithmetique,decomposition,calcul,QCM,2,40,Décomposer 42 en produit de facteurs premiers.,2 × 3 × 7,6 × 7|2 × 21|3 × 14,,flash;arithmetique;decomposition,à valider,fr,arithmetique.csv
+AR3E018,3e,arithmetique,decomposition,calcul,QCM,2,40,Décomposer 60 en produit de facteurs premiers.,2 × 2 × 3 × 5,2 × 30|3 × 20|4 × 15,,flash;arithmetique;decomposition,à valider,fr,arithmetique.csv
+AR3E019,3e,arithmetique,decomposition,calcul,QCM,2,40,Décomposer 84 en produit de facteurs premiers.,2 × 2 × 3 × 7,2 × 42|3 × 28|4 × 21,,flash;arithmetique;decomposition,à valider,fr,arithmetique.csv
+AR3E020,3e,arithmetique,decomposition,calcul,QCM,2,40,Décomposer 105 en produit de facteurs premiers.,3 × 5 × 7,5 × 21|3 × 35|7 × 15,,flash;arithmetique;decomposition,à valider,fr,arithmetique.csv
+AR3E021,3e,arithmetique,decomposition,calcul,QCM,2,40,Décomposer 72 en produit de facteurs premiers.,2 × 2 × 2 × 3 × 3,2 × 36|3 × 24|4 × 18,,flash;arithmetique;decomposition,à valider,fr,arithmetique.csv
+AR3E022,3e,arithmetique,decomposition,calcul,QCM,2,40,Décomposer 90 en produit de facteurs premiers.,2 × 3 × 3 × 5,2 × 45|3 × 30|5 × 18,,flash;arithmetique;decomposition,à valider,fr,arithmetique.csv
+AR3E023,3e,arithmetique,decomposition,calcul,QCM,2,40,Décomposer 100 en produit de facteurs premiers.,2 × 2 × 5 × 5,2 × 50|4 × 25|5 × 20,,flash;arithmetique;decomposition,à valider,fr,arithmetique.csv
+AR3E001,3e,arithmetique,divisibilité,calcul,QCM,1,30,Le nombre 42 est-il divisible par 3 ?,Oui,Non|Seulement par 2|Seulement par 7,,flash;arithmetique;divisibilite,à valider,fr,arithmetique.csv
+AR3E002,3e,arithmetique,divisibilité,calcul,QCM,1,30,Le nombre 75 est-il divisible par 5 ?,Oui,Non|Seulement par 3|Seulement par 15,,flash;arithmetique;divisibilite,à valider,fr,arithmetique.csv
+AR3E003,3e,arithmetique,PGCD,calcul,QCM,2,40,Quel est le PGCD de 18 et 24 ?,6,3|12|9,,flash;arithmetique;pgcd,à valider,fr,arithmetique.csv
+AR3E005,3e,arithmetique,premiers,calcul,QCM,2,35,Le nombre 17 est-il premier ?,Oui,Non|Seulement divisible par 2|Seulement divisible par 3,,flash;arithmetique;premier,à valider,fr,arithmetique.csv
+AR3E006,3e,arithmetique,divisibilité,calcul,QCM,1,30,Le nombre 100 est-il divisible par 4 ?,Oui,Non|Seulement par 2|Seulement par 5,,flash;arithmetique;divisibilite,à valider,fr,arithmetique.csv
+AR3E007,3e,arithmetique,PGCD,calcul,QCM,2,40,Quel est le PGCD de 21 et 35 ?,7,3|5|14,,flash;arithmetique;pgcd,à valider,fr,arithmetique.csv
+AR3E009,3e,arithmetique,premiers,calcul,QCM,2,35,Le nombre 51 est-il premier ?,Non,Oui|Seulement divisible par 3|Seulement divisible par 17,,flash;arithmetique;premier,à valider,fr,arithmetique.csv
+AR3E010,3e,arithmetique,divisibilité,calcul,QCM,1,30,Le nombre 64 est-il divisible par 8 ?,Oui,Non|Seulement par 2|Seulement par 4,,flash;arithmetique;divisibilite,à valider,fr,arithmetique.csv
+AR3E011,3e,arithmetique,PGCD,calcul,QCM,2,40,Quel est le PGCD de 32 et 48 ?,16,8|24|32,,flash;arithmetique;pgcd,à valider,fr,arithmetique.csv
+AR3E013,3e,arithmetique,premiers,calcul,QCM,2,35,Le nombre 29 est-il premier ?,Oui,Non|Seulement divisible par 2|Seulement divisible par 5,,flash;arithmetique;premier,à valider,fr,arithmetique.csv
+AR3E014,3e,arithmetique,divisibilité,calcul,QCM,1,30,Le nombre 81 est-il divisible par 9 ?,Oui,Non|Seulement par 3|Seulement par 27,,flash;arithmetique;divisibilite,à valider,fr,arithmetique.csv
+AR3E015,3e,arithmetique,PGCD,calcul,QCM,2,40,Quel est le PGCD de 45 et 60 ?,15,5|10|20,,flash;arithmetique;pgcd,à valider,fr,arithmetique.csv
+AI3E001,3e,aires,carre,calcul,QCM,1,30,Calculer l'aire d'un carré de côté 6 cm.,36 cm^2,12 cm^2|24 cm^2|18 cm^2,,flash;aires;carre,à valider,fr,aires.csv
+AI3E002,3e,aires,rectangle,calcul,QCM,1,30,Calculer l'aire d'un rectangle de longueur 8 cm et largeur 5 cm.,40 cm^2,13 cm^2|20 cm^2|32 cm^2,,flash;aires;rectangle,à valider,fr,aires.csv
+AI3E003,3e,aires,triangle,calcul,QCM,2,40,Calculer l'aire d'un triangle de base 10 cm et hauteur 6 cm.,30 cm^2,60 cm^2|16 cm^2|36 cm^2,,flash;aires;triangle,à valider,fr,aires.csv
+AI3E004,3e,aires,disque,calcul,QCM,2,40,"Calculer l'aire d'un disque de rayon 4 cm. ($\pi \approx 3,14$)","50,24 cm^2","25,12 cm^2|12,56 cm^2|100,48 cm^2",,flash;aires;disque,à valider,fr,aires.csv
+AI3E005,3e,aires,parallelogramme,calcul,QCM,2,40,Calculer l'aire d'un parallélogramme de base 7 cm et hauteur 5 cm.,35 cm^2,12 cm^2|21 cm^2|28 cm^2,,flash;aires;parallelogramme,à valider,fr,aires.csv
+AI3E006,3e,aires,trapeze,calcul,QCM,2,40,"Calculer l'aire d'un trapèze de bases 8 cm et 4 cm, hauteur 5 cm.",30 cm^2,20 cm^2|25 cm^2|40 cm^2,,flash;aires;trapeze,à valider,fr,aires.csv
+AI3E007,3e,aires,carre,calcul,QCM,1,30,Un carré a une aire de 49 cm^2. Quelle est la longueur de son côté ?,7 cm,"14 cm|21 cm|3,5 cm",,flash;aires;carre,à valider,fr,aires.csv
+AI3E008,3e,aires,rectangle,calcul,QCM,1,30,Un rectangle a une aire de 54 cm^2 et une largeur de 6 cm. Quelle est sa longueur ?,9 cm,6 cm|12 cm|18 cm,,flash;aires;rectangle,à valider,fr,aires.csv
+AI3E009,3e,aires,triangle,calcul,QCM,2,40,Un triangle a une aire de 24 cm^2 et une base de 8 cm. Quelle est sa hauteur ?,6 cm,3 cm|8 cm|12 cm,,flash;aires;triangle,à valider,fr,aires.csv
+AI3E010,3e,aires,disque,calcul,QCM,2,40,"Un disque a une aire de 28,26 cm^2. Quel est son rayon ? ($\pi \approx 3,14$)",3 cm,6 cm|9 cm|12 cm,,flash;aires;disque,à valider,fr,aires.csv
+AI3E011,3e,aires,parallelogramme,calcul,QCM,2,40,Un parallélogramme a une aire de 48 cm^2 et une base de 8 cm. Quelle est sa hauteur ?,6 cm,8 cm|12 cm|4 cm,,flash;aires;parallelogramme,à valider,fr,aires.csv
+AI3E012,3e,aires,trapeze,calcul,QCM,2,40,"Un trapèze a une aire de 35 cm^2, bases 10 cm et 4 cm. Quelle est sa hauteur ?","3,5 cm",7 cm|5 cm|2 cm,,flash;aires;trapeze,à valider,fr,aires.csv
+AI3E013,3e,aires,carre,calcul,QCM,1,30,Calculer l'aire d'un carré de côté 9 cm.,81 cm^2,27 cm^2|63 cm^2|36 cm^2,,flash;aires;carre,à valider,fr,aires.csv
+AI3E014,3e,aires,rectangle,calcul,QCM,1,30,Calculer l'aire d'un rectangle de longueur 12 cm et largeur 7 cm.,84 cm^2,19 cm^2|24 cm^2|72 cm^2,,flash;aires;rectangle,à valider,fr,aires.csv
+AI3E015,3e,aires,triangle,calcul,QCM,2,40,Calculer l'aire d'un triangle de base 15 cm et hauteur 8 cm.,60 cm^2,30 cm^2|45 cm^2|80 cm^2,,flash;aires;triangle,à valider,fr,aires.csv
+AI3E016,3e,aires,disque,calcul,QCM,2,40,"Calculer l'aire d'un disque de rayon 6 cm. ($\pi \approx 3,14$)","113,04 cm^2","56,52 cm^2|75,36 cm^2|150,72 cm^2",,flash;aires;disque,à valider,fr,aires.csv
+AI3E017,3e,aires,parallelogramme,calcul,QCM,2,40,Calculer l'aire d'un parallélogramme de base 9 cm et hauteur 7 cm.,63 cm^2,21 cm^2|36 cm^2|49 cm^2,,flash;aires;parallelogramme,à valider,fr,aires.csv
+AI3E018,3e,aires,trapeze,calcul,QCM,2,40,"Calculer l'aire d'un trapèze de bases 12 cm et 6 cm, hauteur 5 cm.",45 cm^2,30 cm^2|36 cm^2|60 cm^2,,flash;aires;trapeze,à valider,fr,aires.csv
+AI3E019,3e,aires,carre,calcul,QCM,1,30,Un carré a une aire de 64 cm^2. Quelle est la longueur de son côté ?,8 cm,16 cm|32 cm|4 cm,,flash;aires;carre,à valider,fr,aires.csv
+AI3E020,3e,aires,rectangle,calcul,QCM,1,30,Un rectangle a une aire de 96 cm^2 et une largeur de 8 cm. Quelle est sa longueur ?,12 cm,8 cm|16 cm|24 cm,,flash;aires;rectangle,à valider,fr,aires.csv

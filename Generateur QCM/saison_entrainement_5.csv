@@ -1,0 +1,2 @@
+uid,level,topic,subtopic,skill,format,difficulty,time_s,stem_tex,answer_tex,distractors_tex,figure_url,tags,status,language,source_file
+AR3E020,3e,arithmetique,decomposition,calcul,QCM,2,40,Décomposer 105 en produit de facteurs premiers.,3 × 5 × 7,5 × 21|3 × 35|7 × 15,,flash;arithmetique;decomposition,à valider,fr,arithmetique.csv

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultats Olympiades de Mathématiques</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <img src="Olympiades_maths.png" alt="Olympiades de Mathématiques" class="logo">
+                <img src="academie-creteil.png" alt="Académie de Créteil" class="logo-academie">
+                <h1>Résultats des Olympiades<br>de Mathématiques</h1>
+                <p class="subtitle">Consultez vos résultats individuels et d'équipe</p>
+            </div>
+        </header>
+
+        <main>
+            <!-- Section d'authentification -->
+            <section id="auth-section" class="auth-section">
+                <div class="auth-card">
+                    <h2>Authentification Établissement</h2>
+                    <p class="auth-description">Connectez-vous avec les identifiants de votre établissement</p>
+                    
+                    <form id="auth-form" class="auth-form">
+                        <div class="form-group">
+                            <label for="uai">Code UAI de l'établissement</label>
+                            <input type="text" id="uai" name="uai" 
+                                   placeholder="Ex: 0940123A" 
+                                   style="text-transform: uppercase;" 
+                                   required 
+                                   maxlength="8">
+                            <small style="color: #64748b; font-size: 0.85rem; margin-top: 4px;">
+                                Code UAI à 7-8 caractères fourni par l'académie
+                            </small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Mot de passe</label>
+                            <input type="password" id="password" name="password" 
+                                   placeholder="Mot de passe" 
+                                   required>
+                            <small style="color: #64748b; font-size: 0.85rem; margin-top: 4px;">
+                                Mot de passe communiqué par l'académie
+                            </small>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Consulter les résultats</span>
+                            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </form>
+
+                    <div id="error-message" class="error-message" style="display: none;"></div>
+                </div>
+            </section>
+
+            <!-- Section des résultats -->
+            <section id="results-section" class="results-section" style="display: none;">
+                <div class="results-header">
+                    <h2>Résultats de l'établissement</h2>
+                    <div class="header-actions">
+                        <div class="export-buttons">
+                            <button id="export-pdf-btn" class="export-btn" title="Exporter en PDF">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                    <polyline points="10 9 9 9 8 9"></polyline>
+                                </svg>
+                                PDF
+                            </button>
+                            <button id="export-excel-btn" class="export-btn" title="Exporter en Excel">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <rect x="8" y="12" width="8" height="7"></rect>
+                                </svg>
+                                Excel
+                            </button>
+                            <button id="export-csv-btn" class="export-btn" title="Exporter en CSV">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="9" y1="15" x2="15" y2="15"></line>
+                                </svg>
+                                CSV
+                            </button>
+                            <button id="export-odt-btn" class="export-btn" title="Exporter en ODS (LibreOffice)">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                </svg>
+                                ODS
+                            </button>
+                        </div>
+                        <button id="logout-btn" class="logout-btn">Déconnexion</button>
+                    </div>
+                </div>
+
+                <div class="student-info">
+                    <div class="info-card">
+                        <h3 id="establishment-name"></h3>
+                        <p id="establishment-details"></p>
+                    </div>
+                </div>
+
+                <div class="results-container">
+                    <div class="table-controls">
+                        <div class="search-box">
+                            <input type="text" id="student-search" placeholder="Rechercher un élève...">
+                        </div>
+                        <div class="stats">
+                            <span id="student-count">0 élève(s)</span>
+                        </div>
+                    </div>
+
+                    <div class="table-wrapper">
+                        <table id="results-table" class="results-table">
+                            <thead>
+                                <tr>
+                                    <th>Nom Prénom</th>
+                                    <th>Date de naissance</th>
+                                    <th>Niveau</th>
+                                    <th>Résultat Individuel</th>
+                                    <th>Résultat Équipe</th>
+                                </tr>
+                            </thead>
+                            <tbody id="results-tbody">
+                                <!-- Les résultats seront insérés ici par JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Message de félicitations -->
+                <div class="congratulations-message">
+                    <p>Félicitations à tous les élèves pour leur participation aux Olympiades de Mathématiques !</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Olympiades de Mathématiques - Académie de Créteil</p>
+        </footer>
+    </div>
+
+    <script src="establishments.js"></script>
+    <script src="data.js"></script>
+    <!-- Bibliothèques pour l'export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+uid,level,topic,subtopic,skill,format,difficulty,time_s,stem_tex,answer_tex,distractors_tex,figure_url,tags,status,language
+FR5ESI001,5e,fractions,simplification,division_simple,QCM,1,40,Simplifier : \frac{4}{8},\frac{1}{2},\frac{2}{4}|\frac{4}{16}|\frac{2}{3},,flash;fractions;simplifier2,validé,fr
+FR5ESI002,5e,fractions,simplification,division_simple,QCM,1,40,Simplifier : \frac{6}{12},\frac{1}{2},\frac{2}{6}|\frac{3}{4}|\frac{6}{24},,flash;fractions;simplifier2,validé,fr
+FR5ESI003,5e,fractions,simplification,division_simple,QCM,1,40,Simplifier : \frac{9}{12},\frac{3}{4},\frac{6}{9}|\frac{9}{24}|\frac{2}{3},,flash;fractions;simplifier3,validé,fr
+FR5ESI004,5e,fractions,simplification,division_simple,QCM,1,40,Simplifier : \frac{10}{15},\frac{2}{3},\frac{5}{10}|\frac{3}{5}|\frac{4}{6},,flash;fractions;simplifier5,validé,fr
+FR5ESI005,5e,fractions,simplification,pgcd,QCM,2,50,Simplifier : \frac{18}{24},\frac{3}{4},\frac{6}{8}|\frac{9}{24}|\frac{2}{3},,flash;fractions;pgcd6,validé,fr
+FR5ESI006,5e,fractions,simplification,pgcd,QCM,2,50,Simplifier : \frac{21}{28},\frac{3}{4},\frac{7}{9}|\frac{4}{7}|\frac{2}{3},,flash;fractions;pgcd7,validé,fr
+FR5ESI007,5e,fractions,simplification,pgcd,QCM,2,50,Simplifier : \frac{14}{35},\frac{2}{5},\frac{4}{7}|\frac{7}{14}|\frac{5}{14},,flash;fractions;pgcd7,validé,fr
+FR5ESI008,5e,fractions,simplification,pgcd,QCM,2,50,Simplifier : \frac{32}{40},\frac{4}{5},\frac{8}{10}|\frac{3}{5}|\frac{2}{5},,flash;fractions;pgcd8,validé,fr
+FR5ESI009,5e,fractions,simplification,irreductible,QCM,2,50,Simplifier : \frac{7}{13},\frac{7}{13},\frac{1}{13}|\frac{13}{7}|\frac{7}{26},,flash;fractions;irreductible,validé,fr
+FR5ESI010,5e,fractions,simplification,irreductible,QCM,2,50,Simplifier : \frac{11}{17},\frac{11}{17},\frac{1}{17}|\frac{17}{11}|\frac{11}{34},,flash;fractions;irreductible,validé,fr
+FR5ESI011,5e,fractions,simplification,grande,QCM,3,70,Simplifier : \frac{45}{60},\frac{3}{4},\frac{9}{12}|\frac{15}{20}|\frac{4}{5},,flash;fractions;pgcd15,validé,fr
+FR5ESI012,5e,fractions,simplification,grande,QCM,3,70,Simplifier : \frac{56}{72},\frac{7}{9},\frac{8}{9}|\frac{14}{18}|\frac{28}{36},,flash;fractions;pgcd8,validé,fr
+FR5ESI013,5e,fractions,simplification,grande,QCM,3,70,Simplifier : \frac{63}{84},\frac{3}{4},\frac{9}{12}|\frac{7}{12}|\frac{6}{8},,flash;fractions;pgcd21,validé,fr
+FR5ESI014,5e,fractions,simplification,piege_equivalent,QCM,3,70,Simplifier : \frac{8}{12},\frac{2}{3},\frac{4}{6}|\frac{6}{9}|\frac{8}{24},,flash;fractions;equivalent,validé,fr
+FR5ESI015,5e,fractions,simplification,piege_irreductible,QCM,3,70,Simplifier : \frac{17}{19},\frac{17}{19},\frac{1}{19}|\frac{19}{17}|\frac{17}{38},,flash;fractions;irreductible,validé,fr

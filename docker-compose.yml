@@ -1,0 +1,18 @@
+
+services:
+  qf:
+    image: generateur-flash
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: generateur-flash
+    volumes:
+      - .:/app
+    command: ["--level", "3e", "--topic", "trigonometrie", "thales", "--n", "5", "--compile"]
+
+  qf-dev:
+    build: .
+    volumes:
+      - .:/app
+    command: ["--level", "3e", "--topic", "trigonometrie", "thales", "--n", "5", "--compile"]
+    entrypoint: ["python", "-u", "generate_flash.py"]

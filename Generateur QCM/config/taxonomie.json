@@ -1,0 +1,81 @@
+{
+  "levels": {
+    "6e": {
+      "nom": "Sixième",
+      "cycle": "Cycle 3",
+      "topics": ["nombres_decimaux", "fractions", "geometrie", "proportionnalite", "aires_perimetres"]
+    },
+    "5e": {
+      "nom": "Cinquième", 
+      "cycle": "Cycle 4",
+      "topics": ["nombres_relatifs", "fractions", "expressions_litterales", "geometrie", "statistiques"]
+    },
+    "4e": {
+      "nom": "Quatrième",
+      "cycle": "Cycle 4", 
+      "topics": ["equations", "puissances", "theoreme_pythagore", "proportionnalite", "statistiques"]
+    },
+    "3e": {
+      "nom": "Troisième",
+      "cycle": "Cycle 4",
+      "topics": ["calcul_litteral", "equations", "fonctions", "theoreme_pythagore", "theoreme_thales", "trigonometrie", "probabilites", "statistiques"]
+    }
+  },
+  
+  "competences": {
+    "calculer": {
+      "description": "Effectuer des calculs numériques ou littéraux",
+      "verbes": ["calculer", "simplifier", "développer", "factoriser"]
+    },
+    "modeliser": {
+      "description": "Traduire un problème en langage mathématique", 
+      "verbes": ["modéliser", "traduire", "représenter", "schématiser"]
+    },
+    "representer": {
+      "description": "Choisir et utiliser une représentation adaptée",
+      "verbes": ["tracer", "construire", "représenter", "dessiner"]
+    },
+    "raisonner": {
+      "description": "Effectuer des déductions logiques",
+      "verbes": ["démontrer", "justifier", "prouver", "déduire"]
+    },
+    "communiquer": {
+      "description": "Expliquer sa démarche avec un vocabulaire adapté",
+      "verbes": ["expliquer", "décrire", "argumenter", "interpréter"]
+    }
+  },
+  
+  "formats": {
+    "court": {
+      "description": "Réponse courte (nombre, expression)",
+      "temps_moyen": 20
+    },
+    "QCM": {
+      "description": "Questionnaire à choix multiples", 
+      "temps_moyen": 30
+    },
+    "vrai_faux": {
+      "description": "Question vrai/faux avec justification",
+      "temps_moyen": 25
+    },
+    "long": {
+      "description": "Réponse développée ou démonstration", 
+      "temps_moyen": 180
+    }
+  },
+  
+  "difficultes": {
+    "1": "Très facile - Application directe",
+    "2": "Facile - Une étape de raisonnement", 
+    "3": "Moyen - Plusieurs étapes simples",
+    "4": "Difficile - Raisonnement complexe",
+    "5": "Très difficile - Synthèse avancée"
+  },
+  
+  "statuts": {
+    "brouillon": "En cours de rédaction",
+    "a_relire": "Nécessite une relecture", 
+    "valide": "Validé et prêt à utiliser",
+    "archive": "Ancienne version archivée"
+  }
+}

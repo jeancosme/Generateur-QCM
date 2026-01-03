@@ -1,0 +1,43 @@
+# Fichiers Excel sources (peuvent contenir des données sensibles)
+*.xlsx
+*.xls
+~$*.xlsx
+
+# Fichiers PDF
+*.pdf
+
+# Fichier CSV des identifiants (ne pas publier)
+identifiants_etablissements.csv
+
+# Scripts de chiffrement (non nécessaires pour dépôt privé)
+encrypt_credentials.py
+chiffrer_identifiants.bat
+test_chiffrement.bat
+establishments_encrypted.js
+
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Fichiers de backup
+*.bak
+*.tmp
