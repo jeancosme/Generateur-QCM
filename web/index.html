@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de QCM - Mathématiques</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- En-tête -->
+        <header>
+            <h1>🎓 Générateur de QCM Mathématiques</h1>
+            <p class="subtitle">Créez vos questionnaires personnalisés en quelques clics</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="generate">📝 Générer un QCM</button>
+            <button class="tab-btn" data-tab="browse">📚 Parcourir les questions</button>
+            <button class="tab-btn" data-tab="create">➕ Créer une question</button>
+            <button class="tab-btn" data-tab="stats">📊 Statistiques</button>
+        </nav>
+
+        <!-- Onglet: Générer un QCM -->
+        <div id="generate-tab" class="tab-content active">
+            <div class="card">
+                <h2>Configuration du QCM</h2>
+                
+                <form id="generate-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="title">Titre du document</label>
+                            <input type="text" id="title" value="Questions Flash" placeholder="Ex: Évaluation Thalès">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="num-questions">Nombre de questions</label>
+                            <input type="number" id="num-questions" min="1" max="20" value="5">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="level">Niveau</label>
+                            <select id="level" multiple>
+                                <option value="6e">6e</option>
+                                <option value="5e">5e</option>
+                                <option value="4e">4e</option>
+                                <option value="3e" selected>3e</option>
+                            </select>
+                            <small>Maintenez Ctrl/Cmd pour sélectionner plusieurs niveaux</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="topic">Thème</label>
+                            <select id="topic" multiple>
+                                <option value="">Chargement...</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="difficulty">Difficulté maximum</label>
+                            <select id="difficulty">
+                                <option value="">Toutes</option>
+                                <option value="1">1 - Très facile</option>
+                                <option value="2">2 - Facile</option>
+                                <option value="3" selected>3 - Moyen</option>
+                                <option value="4">4 - Difficile</option>
+                                <option value="5">5 - Très difficile</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mode">Mode d'affichage</label>
+                            <select id="mode">
+                                <option value="qfqcm" selected>QCM (4 choix A,B,C,D)</option>
+                                <option value="qflibre">Réponse libre</option>
+                                <option value="modeqcm">Mode QCM standard</option>
+                                <option value="modelibre">Mode libre standard</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-icon">🚀</span> Générer le PDF
+                        </button>
+                        <button type="button" id="preview-btn" class="btn btn-secondary">
+                            <span class="btn-icon">👁️</span> Prévisualiser
+                        </button>
+                    </div>
+                </form>
+
+                <div id="preview-area" class="preview-area" style="display: none;">
+                    <h3>Prévisualisation des questions sélectionnées</h3>
+                    <div id="preview-content"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Onglet: Parcourir les questions -->
+        <div id="browse-tab" class="tab-content">
+            <div class="card">
+                <h2>Banque de questions</h2>
+                
+                <div class="filters">
+                    <input type="text" id="search" placeholder="🔍 Rechercher...">
+                    <select id="filter-level">
+                        <option value="">Tous les niveaux</option>
+                        <option value="6e">6e</option>
+                        <option value="5e">5e</option>
+                        <option value="4e">4e</option>
+                        <option value="3e">3e</option>
+                    </select>
+                    <select id="filter-topic">
+                        <option value="">Tous les thèmes</option>
+                    </select>
+                    <button id="load-questions-btn" class="btn btn-secondary">Charger</button>
+                </div>
+
+                <div id="questions-list" class="questions-list">
+                    <p class="placeholder">Cliquez sur "Charger" pour afficher les questions</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Onglet: Créer une question -->
+        <div id="create-tab" class="tab-content">
+            <div class="card">
+                <h2>Créer/Modifier une question</h2>
+                
+                <form id="question-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="q-uid">UID (Identifiant unique)</label>
+                            <input type="text" id="q-uid" required placeholder="Ex: 3e_thales_001">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="q-level">Niveau</label>
+                            <select id="q-level" required>
+                                <option value="6e">6e</option>
+                                <option value="5e">5e</option>
+                                <option value="4e">4e</option>
+                                <option value="3e">3e</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="q-topic">Thème</label>
+                            <input type="text" id="q-topic" required placeholder="Ex: thales">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="q-subtopic">Sous-thème</label>
+                            <input type="text" id="q-subtopic" placeholder="Ex: calcul_longueur">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="q-skill">Compétence</label>
+                            <input type="text" id="q-skill" placeholder="Ex: calculer">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="q-format">Format</label>
+                            <select id="q-format">
+                                <option value="court">Court</option>
+                                <option value="QCM">QCM</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="q-difficulty">Difficulté (1-5)</label>
+                            <input type="number" id="q-difficulty" min="1" max="5" value="3">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="q-time">Temps estimé (secondes)</label>
+                            <input type="number" id="q-time" value="60">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="q-stem">Énoncé (LaTeX)</label>
+                        <textarea id="q-stem" rows="3" required placeholder="Ex: Calculer $\frac{2}{3} + \frac{1}{4}$"></textarea>
+                        <small>Utilisez $ pour les formules mathématiques</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="q-answer">Réponse correcte (LaTeX)</label>
+                        <input type="text" id="q-answer" required placeholder="Ex: $\frac{11}{12}$">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="q-distractors">Distracteurs (séparés par ;)</label>
+                        <input type="text" id="q-distractors" placeholder="Ex: $\frac{3}{7}$;$\frac{5}{12}$;$1$">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="q-tags">Tags (séparés par ,)</label>
+                        <input type="text" id="q-tags" placeholder="Ex: fractions,addition">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="q-status">Statut</label>
+                        <select id="q-status">
+                            <option value="draft">Brouillon</option>
+                            <option value="validé">Validé</option>
+                            <option value="archivé">Archivé</option>
+                        </select>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-icon">💾</span> Enregistrer
+                        </button>
+                        <button type="button" id="clear-form-btn" class="btn btn-secondary">
+                            <span class="btn-icon">🗑️</span> Effacer
+                        </button>
+                    </div>
+                </form>
+
+                <div id="form-message" class="message" style="display: none;"></div>
+            </div>
+        </div>
+
+        <!-- Onglet: Statistiques -->
+        <div id="stats-tab" class="tab-content">
+            <div class="card">
+                <h2>Statistiques de la base de questions</h2>
+                <div id="stats-content">
+                    <p class="placeholder">Chargement des statistiques...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Générateur de QCM - Version 1.0 | API: <span id="api-status" class="status-badge">⚠️ Vérification...</span></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
