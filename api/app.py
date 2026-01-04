@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from typing import List, Optional
+from pydantic import BaseModel
 import pandas as pd
 import os
 import sys
@@ -15,8 +16,18 @@ from datetime import datetime
 # Ajouter le répertoire parent au path pour importer les modules existants
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from api.models import Question, QuestionFilter, GenerateRequest
+from api.models import Question, QuestionFilter
 from api.services import QuestionService, GeneratorService
+
+
+class SimpleGenerateRequest(BaseModel):
+    """Modèle simplifié pour la génération depuis le frontend"""
+    level: Optional[str] = None
+    themes: Optional[List[str]] = None
+    n_questions: int = 5
+    difficulty: Optional[str] = None
+    output_format: str = "pdf"
+    include_answers: bool = True
 
 app = FastAPI(
     title="Générateur de QCM API",
@@ -150,22 +161,85 @@ async def delete_question(question_id: str):
 
 
 @app.post("/api/generate")
-async def generate_pdf(request: GenerateRequest):
+async def generate_pdf(request: SimpleGenerateRequest):
     """
     Générer un PDF de questions flash
     """
     try:
-        pdf_path = generator_service.generate_pdf(request)
-        if not os.path.exists(pdf_path):
-            raise HTTPException(status_code=500, detail="Erreur lors de la génération du PDF")
+        from reportlab.lib.pagesizes import A4
+        from reportlab.pdfgen import canvas
+        from reportlab.lib.units import cm
+        import tempfile
         
+        # Récupérer les questions
+        filters = QuestionFilter(
+            level=[request.level] if request.level else None,
+            topic=request.themes,
+        )
+        questions = question_service.get_questions(filters, request.n_questions, 0)
+        
+        # Créer un fichier PDF temporaire
+        pdf_filename = f"qcm_{request.level or '3e'}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
+        pdf_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "exports", "pdf")
+        os.makedirs(pdf_dir, exist_ok=True)
+        pdf_path = os.path.join(pdf_dir, pdf_filename)
+        
+        # Générer le PDF
+        c = canvas.Canvas(pdf_path, pagesize=A4)
+        width, height = A4
+        
+        # Titre
+        c.setFont("Helvetica-Bold", 16)
+        c.drawString(2*cm, height - 2*cm, f"QCM - {request.level or '3e'}")
+        
+        if request.themes:
+            c.setFont("Helvetica", 12)
+            c.drawString(2*cm, height - 2.8*cm, f"Thèmes: {', '.join(request.themes)}")
+        
+        # Questions
+        y_position = height - 4*cm
+        c.setFont("Helvetica", 11)
+        
+        for i, q in enumerate(questions[:request.n_questions], 1):
+            if y_position < 3*cm:  # Nouvelle page si nécessaire
+                c.showPage()
+                y_position = height - 2*cm
+                c.setFont("Helvetica", 11)
+            
+            # Numéro et énoncé
+            c.setFont("Helvetica-Bold", 11)
+            c.drawString(2*cm, y_position, f"Question {i}:")
+            y_position -= 0.6*cm
+            
+            c.setFont("Helvetica", 10)
+            # Simplifier le LaTeX pour le PDF (retirer les $)
+            enonce_simple = q.stem_tex.replace("$", "")
+            c.drawString(2.5*cm, y_position, enonce_simple[:80])
+            
+            y_position -= 0.5*cm
+            c.setFont("Helvetica-Oblique", 9)
+            c.drawString(2.5*cm, y_position, f"[{q.topic} - Difficulte: {q.difficulty}]")
+            
+            y_position -= 1*cm
+        
+        c.save()
+        
+        # Retourner le fichier PDF
         return FileResponse(
             pdf_path,
             media_type="application/pdf",
-            filename=os.path.basename(pdf_path)
+            filename=pdf_filename,
+            headers={"Content-Disposition": f"attachment; filename={pdf_filename}"}
         )
+        
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Erreur de génération: {str(e)}")
+
+
+@app.post("/generate")
+async def generate_pdf_noprefix(request: SimpleGenerateRequest):
+    """Génération sans préfixe /api"""
+    return await generate_pdf(request)
 
 
 @app.get("/api/stats")
@@ -199,6 +273,118 @@ async def get_subtopics(topic: Optional[str] = None):
     Récupérer la liste des sous-thèmes disponibles
     """
     return question_service.get_unique_values("subtopic", topic=topic)
+
+
+@app.get("/themes")
+async def get_themes_legacy(level: Optional[str] = None):
+    """Alias pour compatibilité frontend - récupérer les thèmes"""
+    return question_service.get_unique_values("topic", level=level)
+
+
+@app.get("/api/themes")
+async def get_themes_api(level: Optional[str] = None):
+    """Endpoint API pour récupérer les thèmes"""
+    return question_service.get_unique_values("topic", level=level)
+
+
+@app.get("/levels")
+async def get_levels_legacy():
+    """Alias pour compatibilité frontend - récupérer les niveaux"""
+    return question_service.get_unique_values("level")
+
+
+@app.get("/api/taxonomy")
+async def get_taxonomy_api():
+    """Récupérer la taxonomie complète"""
+    try:
+        taxonomy_path = os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+            "config", "taxonomie.json"
+        )
+        if os.path.exists(taxonomy_path):
+            import json
+            with open(taxonomy_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        # Fallback: construire la taxonomie depuis les données
+        return {
+            "levels": question_service.get_unique_values("level"),
+            "topics": question_service.get_unique_values("topic"),
+            "subtopics": question_service.get_unique_values("subtopic")
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Erreur taxonomie: {str(e)}")
+
+
+@app.get("/questions/search")
+async def search_questions(
+    level: Optional[str] = Query(None),
+    themes: Optional[List[str]] = Query(None),
+    difficulty: Optional[int] = Query(None),
+    skip: int = Query(0, ge=0),
+    limit: int = Query(20, ge=1, le=100)
+):
+    """Recherche de questions avec filtres simplifiés"""
+    filters = QuestionFilter(
+        level=[level] if level else None,
+        topic=themes,
+        max_difficulty=difficulty
+    )
+    questions = question_service.get_questions(filters, limit, skip)
+    
+    # Formater les questions pour le frontend
+    formatted_questions = []
+    for q in questions:
+        q_dict = {
+            "uid": q.uid,
+            "level": q.level,
+            "theme": q.topic,  # Mapper topic -> theme
+            "enonce": q.stem_tex,  # Mapper stem_tex -> enonce
+            "difficulty": q.difficulty,
+            "format": q.format,
+            "subtopic": q.subtopic,
+            "skill": q.skill,
+            "time_s": q.time_s,
+            "status": q.status
+        }
+        formatted_questions.append(q_dict)
+    
+    return {"questions": formatted_questions, "total": len(formatted_questions)}
+
+
+@app.get("/api/questions/search")
+async def search_questions_api(
+    level: Optional[str] = Query(None),
+    themes: Optional[List[str]] = Query(None),
+    difficulty: Optional[int] = Query(None),
+    skip: int = Query(0, ge=0),
+    limit: int = Query(20, ge=1, le=100)
+):
+    """Recherche de questions avec filtres simplifiés (via API)"""
+    return await search_questions(level, themes, difficulty, skip, limit)
+
+
+@app.get("/download/pdf/{filename}")
+async def download_pdf(filename: str):
+    """Télécharger un fichier PDF généré"""
+    pdf_path = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "exports", "pdf", filename
+    )
+    if not os.path.exists(pdf_path):
+        raise HTTPException(status_code=404, detail="Fichier PDF non trouvé")
+    return FileResponse(pdf_path, media_type="application/pdf", filename=filename)
+
+
+@app.get("/download/html/{filename}")
+async def download_html(filename: str):
+    """Télécharger un fichier HTML généré"""
+    html_path = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "exports", "html", filename
+    )
+    if not os.path.exists(html_path):
+        raise HTTPException(status_code=404, detail="Fichier HTML non trouvé")
+    return FileResponse(html_path, media_type="text/html", filename=filename)
 
 
 if __name__ == "__main__":

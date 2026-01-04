@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../services/api';
+import LatexRenderer from './LatexRenderer';
 import './QuestionPreview.css';
 
 function QuestionPreview({ selectedLevel, selectedThemes }) {
@@ -89,7 +90,7 @@ function QuestionPreview({ selectedLevel, selectedThemes }) {
                 <span className="question-theme">{question.theme}</span>
               </div>
               <div className="question-content">
-                <p className="question-text">{question.enonce}</p>
+                <LatexRenderer content={question.enonce} className="question-text" />
                 {question.choices && question.choices.length > 0 && (
                   <ul className="choices-list">
                     {question.choices.map((choice, i) => (

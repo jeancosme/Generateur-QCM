@@ -2,7 +2,8 @@
  * Service API pour communiquer avec le backend
  */
 
-const API_BASE_URL = 'http://localhost:8000';
+// Utiliser une URL relative en production (via nginx proxy) ou localhost:8000 en dev
+const API_BASE_URL = import.meta.env.PROD ? '/api' : 'http://localhost:8000';
 
 class ApiService {
   /**
@@ -64,11 +65,38 @@ class ApiService {
       },
       body: JSON.stringify(config),
     });
+    
     if (!response.ok) {
-      const error = await response.json();
-      throw new Error(error.detail || 'Erreur lors de la génération du QCM');
+      const error = await response.text();
+      throw new Error(error || 'Erreur lors de la génération du QCM');
     }
-    return response.json();
+    
+    // Télécharger directement le PDF
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    
+    // Extraire le nom du fichier depuis les headers ou utiliser un nom par défaut
+    const contentDisposition = response.headers.get('content-disposition');
+    let filename = 'qcm.pdf';
+    if (contentDisposition) {
+      const filenameMatch = contentDisposition.match(/filename="?(.+)"?/);
+      if (filenameMatch) filename = filenameMatch[1];
+    }
+    
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    window.URL.revokeObjectURL(url);
+    
+    // Retourner un objet de succès pour le frontend
+    return {
+      success: true,
+      filename: filename,
+      message: 'QCM généré et téléchargé avec succès'
+    };
   }
 
   /**
