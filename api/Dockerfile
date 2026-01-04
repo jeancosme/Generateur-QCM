@@ -10,14 +10,6 @@ ENV PYTHONUNBUFFERED=1 \
 # Créer un utilisateur non-root
 RUN useradd -m -u 1000 appuser
 
-# Installer les dépendances système pour LaTeX et compilation
-RUN apt-get update && apt-get install -y \
-    texlive-latex-base \
-    texlive-latex-extra \
-    texlive-fonts-recommended \
-    texlive-lang-french \
-    && rm -rf /var/lib/apt/lists/*
-
 # Définir le répertoire de travail
 WORKDIR /app
 
